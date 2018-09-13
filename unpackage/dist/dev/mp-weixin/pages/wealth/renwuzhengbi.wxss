@@ -1,0 +1,137 @@
+@import "../../common/vendor.wxss";
+
+.header-bg {
+  width: 100%;
+  height: 55.55vw;
+  overflow: hidden;
+  position: relative;
+}
+.header-back {
+  height: 40rpx;
+  width: 40rpx;
+  position: absolute;
+  left: 25rpx;
+  top: 40rpx;
+}
+.header-image {
+  width: 100%;
+}
+.content-title {
+  width: 100%;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 36rpx;
+  border-bottom: 2rpx solid #cccccc;
+  overflow: hidden;
+}
+.content-title .select {
+  border-bottom: 6rpx solid #33cccc;
+}
+.content-item {
+  width: 50%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  box-sizing: border-box;
+}
+.task-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 20rpx 20rpx 0 20rpx;
+  background: #f7f7f7;
+  box-sizing: border-box;
+}
+.task-item {
+  height: 160rpx;
+  width: 100%;
+  background: #fff;
+  border-bottom: 2rpx solid #ccc;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  box-shadow: 0 2rpx 4rpx 0 #cccccc;
+  margin-bottom: 16rpx;
+  border-radius: 20rpx;
+}
+.task-item image {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 40rpx;
+}
+.task-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  height: 160rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.task-title {
+  min-width: 100rpx;
+  height: 50rpx;
+  font-size: 32rpx;
+  line-height: 40rpx;
+  color: #000000;
+  font-weight: 700;
+}
+.task-desc {
+  height: 60rpx;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  color: #b6b6b6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.task-btn {
+  width: 200rpx;
+  height: 160rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.task-button {
+  width: 120rpx;
+  height: 60rpx;
+  background-color: #8cafea;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}

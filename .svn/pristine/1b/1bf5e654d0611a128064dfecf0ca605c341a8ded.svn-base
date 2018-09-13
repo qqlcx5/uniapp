@@ -1,0 +1,68 @@
+<template name="69c80bf5">
+  <view class="_view data-v-15f01708 page">
+    <view class="_view data-v-15f01708 header">
+      <view class="_view data-v-15f01708 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left_2.png" mode class="_image data-v-15f01708"></image>
+      </view>
+      <view class="_view data-v-15f01708 header-content"> 币种兑换 </view>
+      <view class="_view data-v-15f01708 header-right"></view>
+    </view>
+    <view class="_view data-v-15f01708 list">
+      <view class="_view data-v-15f01708 item">
+        <view class="_view data-v-15f01708 item-image">
+          <image src="../../static/logo_2.png" mode class="_image data-v-15f01708"></image>
+        </view>
+        <view class="_view data-v-15f01708 item-title"> CNY </view>
+        <view class="_view data-v-15f01708 item-right">可转换
+          <view class="_p data-v-15f01708"></view>
+          <view class="_p data-v-15f01708 item-desc">10000.8
+            <view class="_i data-v-15f01708 item-desc-sub">碧波币</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-15f01708 list-title">选择您要兑换的币种</view>
+    <view class="_view data-v-15f01708 uni-list">
+      <radio-group bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_radio-group data-v-15f01708">
+        <label class="_label data-v-15f01708 uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-15f01708 list-item">
+            <image src="../../static/logo_3.png" mode class="_image data-v-15f01708"></image>
+            <view class="_p data-v-15f01708">BTC</view>
+            <view class="_p data-v-15f01708">比特币</view>
+          </view>
+          <view class="_view data-v-15f01708">
+            <radio value="{{item.value}}" checked="true" class="_radio data-v-15f01708" />
+          </view>
+        </label>
+      </radio-group>
+    </view>
+    <view class="_view data-v-15f01708 fix-height"></view>
+    <view class="_view data-v-15f01708 fix-bottom">
+      <view class="_view data-v-15f01708 fix1">
+        <view class="_view data-v-15f01708 logobox">
+          <image src="../../static/logo_2.png" mode class="_image data-v-15f01708"></image>
+          <view class="_p data-v-15f01708">BBB</view>
+        </view>
+        <image class="_image data-v-15f01708 exchangeicon" src="../../static/zhuanhuan.png" mode></image>
+        <view class="_view data-v-15f01708 logobox">
+          <image src="../../static/logo_2.png" mode class="_image data-v-15f01708"></image>
+          <view class="_p data-v-15f01708">BTB</view>
+        </view>
+      </view>
+      <view class="_view data-v-15f01708 fix2">
+        <view class="_view data-v-15f01708 fix2-title">
+          <view class="_p data-v-15f01708">转换额度</view>
+          <input type="number" placeholder="123" class="_input data-v-15f01708" />
+        </view>
+        <view class="_view data-v-15f01708 fix2-title">
+          <view class="_p data-v-15f01708">转换后</view>
+          <input type="number" placeholder="123" class="_input data-v-15f01708" />
+        </view>
+      </view>
+      <view class="_view data-v-15f01708 fix3">
+        <view class="_view data-v-15f01708 bill">手续费：1 BBB</view>
+        <view class="_view data-v-15f01708 btn">确认转换</view>
+      </view>
+    </view>
+  </view>
+</template>

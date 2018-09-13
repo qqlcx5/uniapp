@@ -1,0 +1,19 @@
+<template name="387c9887">
+  <view class="_view data-v-432c5ee4">
+    <view class="_view data-v-432c5ee4 header">
+      <view class="_view data-v-432c5ee4 header-left">
+        <image src="../../static/left.png" mode class="_image data-v-432c5ee4"></image>
+      </view>
+      <view class="_view data-v-432c5ee4 header-content"> 支付失败 </view>
+      <view class="_view data-v-432c5ee4 header-right"></view>
+    </view>
+    <view class="_view data-v-432c5ee4 payimage">
+      <image src="../../static/fukuanshibai.png" class="_image data-v-432c5ee4"></image>
+      <view class="_p data-v-432c5ee4">支付密码错误，请重试</view>
+      <view class="_view data-v-432c5ee4 payinfo">
+        <view class="_view data-v-432c5ee4 btn chongsi">重试</view>
+        <view class="_view data-v-432c5ee4 btn forget">忘记密码</view>
+      </view>
+    </view>
+  </view>
+</template>

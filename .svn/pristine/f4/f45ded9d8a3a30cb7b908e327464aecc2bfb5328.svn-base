@@ -1,0 +1,39 @@
+<template name="6abd6e84">
+  <view class="_view data-v-6dad1ec6 page">
+    <view class="_view data-v-6dad1ec6 header">
+      <image src="../../static/left_2.png" mode bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_image data-v-6dad1ec6"></image>
+      <image src="../../static/shop.png" mode class="_image data-v-6dad1ec6"></image>
+      <image src="../../static/fenxian.png" mode class="_image data-v-6dad1ec6"></image>
+    </view>
+    <view class="_view data-v-6dad1ec6 info">
+      <view class="_p data-v-6dad1ec6 info-title">碧波币</view>
+      <view class="_p data-v-6dad1ec6 info-desc">碧波币（bibobi）是一种P2P形式的数字货币。</view>
+      <view class="_p data-v-6dad1ec6 info-num">1.256 CNY</view>
+    </view>
+    <view class="_view data-v-6dad1ec6 detail">
+      <view class="_view data-v-6dad1ec6 title">碧波币卖点解析</view>
+      <view class="_view data-v-6dad1ec6 detailimg">
+        <image src="../../static/shop.png" class="_image data-v-6dad1ec6"></image>
+        <image src="../../static/shop.png " mode=" " class="_image data-v-6dad1ec6"></image>
+        <image src="../../static/shop.png " mode=" " class="_image data-v-6dad1ec6"></image>
+        <image src="../../static/shop.png " mode=" " class="_image data-v-6dad1ec6"></image>
+      </view>
+    </view>
+    <view class="_view data-v-6dad1ec6 fix">
+      <view class="_view data-v-6dad1ec6 fixleft">
+        <view class="_view data-v-6dad1ec6 fixicon">
+          <image src="../../static/dianpu_2.png" mode class="_image data-v-6dad1ec6"></image>
+          <view class="_p data-v-6dad1ec6"> 首页 </view>
+        </view>
+        <view class="_view data-v-6dad1ec6 fixicon">
+          <image src="../../static/kefu_2.png" mode class="_image data-v-6dad1ec6"></image>
+          <view class="_p data-v-6dad1ec6"> 客服 </view>
+        </view>
+      </view>
+      <view class="_view data-v-6dad1ec6 fixright">
+        <view class="_view data-v-6dad1ec6 daijinquan btn">代金券抢购</view>
+        <view class="_view data-v-6dad1ec6  btn" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">立即结算</view>
+      </view>
+    </view>
+  </view>
+</template>

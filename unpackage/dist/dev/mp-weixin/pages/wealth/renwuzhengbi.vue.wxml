@@ -1,0 +1,72 @@
+<template name="35f12598">
+  <view class="_view data-v-2a10699f">
+    <view class="_div data-v-2a10699f header-bg">
+      <image class="_image data-v-2a10699f header-back" src="../../static/left_01.png" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-2a10699f header-image" src="../../static/renwuzhenbi.png" mode></image>
+    </view>
+    <view class="_div data-v-2a10699f task-list">
+      <view class="_ul data-v-2a10699f">
+        <view class="_li data-v-2a10699f task-item">
+          <view class="_div data-v-2a10699f">
+            <image src="../../static/ziliao.png" mode class="_image data-v-2a10699f"></image>
+          </view>
+          <view class="_div data-v-2a10699f task-content">
+            <view class="_p data-v-2a10699f task-title">完善碧波世界资料</view>
+            <view class="_p data-v-2a10699f task-desc">碧波世界完善个人资料获得碧波 币奖励</view>
+          </view>
+          <view class="_div data-v-2a10699f task-btn">
+            <view class="_div data-v-2a10699f task-button">去完成</view>
+          </view>
+        </view>
+        <view class="_li data-v-2a10699f task-item">
+          <view class="_div data-v-2a10699f">
+            <image src="../../static/qiandao_2.png" mode class="_image data-v-2a10699f"></image>
+          </view>
+          <view class="_div data-v-2a10699f task-content">
+            <view class="_p data-v-2a10699f task-title">每日签到</view>
+            <view class="_p data-v-2a10699f task-desc">每日完成签到后送0.0025 CNY</view>
+          </view>
+          <view class="_div data-v-2a10699f task-btn">
+            <view class="_div data-v-2a10699f task-button">去完成</view>
+          </view>
+        </view>
+        <view class="_li data-v-2a10699f task-item">
+          <view class="_div data-v-2a10699f">
+            <image src="../../static/yaoqing.png" mode class="_image data-v-2a10699f"></image>
+          </view>
+          <view class="_div data-v-2a10699f task-content">
+            <view class="_p data-v-2a10699f task-title">邀请好友成为福星</view>
+            <view class="_p data-v-2a10699f task-desc">好友同意称为福星后可获得50个 积分／个</view>
+          </view>
+          <view class="_div data-v-2a10699f task-btn">
+            <view class="_div data-v-2a10699f task-button">去完成</view>
+          </view>
+        </view>
+        <view class="_li data-v-2a10699f task-item">
+          <view class="_div data-v-2a10699f">
+            <image src="../../static/fenxiang.png" mode class="_image data-v-2a10699f"></image>
+          </view>
+          <view class="_div data-v-2a10699f task-content">
+            <view class="_p data-v-2a10699f task-title">分享福利</view>
+            <view class="_p data-v-2a10699f task-desc">分享福利产生的每个有效点击送 0.003CNY</view>
+          </view>
+          <view class="_div data-v-2a10699f task-btn">
+            <view class="_div data-v-2a10699f task-button">去完成</view>
+          </view>
+        </view>
+        <view class="_li data-v-2a10699f task-item">
+          <view class="_div data-v-2a10699f">
+            <image src="../../static/yaoqing.png" mode class="_image data-v-2a10699f"></image>
+          </view>
+          <view class="_div data-v-2a10699f task-content">
+            <view class="_p data-v-2a10699f task-title">开设店铺</view>
+            <view class="_p data-v-2a10699f task-desc">分享福利产生的每个有效点击送 0.003CNY</view>
+          </view>
+          <view class="_div data-v-2a10699f task-btn">
+            <view class="_div data-v-2a10699f task-button">去完成</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,42 @@
+<template name="6405406a">
+  <view class="_view data-v-375bbe12">
+    <view class="_view data-v-375bbe12 header-bg">
+      <image class="_image data-v-375bbe12 header-back" src="../../static/left.png" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+      <image class="_image data-v-375bbe12 header-image" src="../../static/youxi_home.png" mode></image>
+    </view>
+    <view class="_view data-v-375bbe12 content">
+      <view class="_view data-v-375bbe12 list">
+        <view class="_view data-v-375bbe12 item">
+          <view class="_view data-v-375bbe12 item-left">
+            <image src="../../static/youxi_1.png" mode class="_image data-v-375bbe12"></image>
+          </view>
+          <view class="_view data-v-375bbe12 item-right">
+            <view class="_p data-v-375bbe12 item-title">吃豆人</view>
+            <view class="_p data-v-375bbe12 item-desc">奖励特权卡一张，加息0.1%</view>
+            <view class="_view data-v-375bbe12 item-btn">立即开始</view>
+          </view>
+        </view>
+        <view class="_view data-v-375bbe12 item">
+          <view class="_view data-v-375bbe12 item-left">
+            <image src="../../static/youxi_2.png" mode class="_image data-v-375bbe12"></image>
+          </view>
+          <view class="_view data-v-375bbe12 item-right">
+            <view class="_p data-v-375bbe12 item-title">消消乐</view>
+            <view class="_p data-v-375bbe12 item-desc">奖励特权卡一张，加息0.1%</view>
+            <view class="_view data-v-375bbe12 item-btn">立即开始</view>
+          </view>
+        </view>
+        <view class="_view data-v-375bbe12 item">
+          <view class="_view data-v-375bbe12 item-left">
+            <image src="../../static/youxi_3.png" mode class="_image data-v-375bbe12"></image>
+          </view>
+          <view class="_view data-v-375bbe12 item-right">
+            <view class="_p data-v-375bbe12 item-title">连连看</view>
+            <view class="_p data-v-375bbe12 item-desc">奖励特权卡一张，加息0.1%</view>
+            <view class="_view data-v-375bbe12 item-btn">立即开始</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

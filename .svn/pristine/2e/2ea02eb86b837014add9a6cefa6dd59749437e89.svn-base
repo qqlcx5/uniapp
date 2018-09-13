@@ -1,0 +1,32 @@
+<template name="dialog$6ddaff91">
+  <view class="_view data-v-2ba394d8">
+    <view class="_view data-v-2ba394d8 header">
+      <view class="_view data-v-2ba394d8 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left_2.png" mode class="_image data-v-2ba394d8"></image>
+      </view>
+      <view class="_view data-v-2ba394d8 header-content"> 尼古拉斯 </view>
+      <view class="_view data-v-2ba394d8 header-right"></view>
+    </view>
+    <view class="_view data-v-2ba394d8 dialog">
+      <view class="_view data-v-2ba394d8 dialogTime"> 星期六 16:48 </view>
+      <view class="_view data-v-2ba394d8 you">
+        <view class="_view data-v-2ba394d8 you-image">
+          <image src="../../static/bg.jpg" class="_image data-v-2ba394d8"></image>
+        </view>
+        <view class="_view data-v-2ba394d8 you-box"> 在吗？在吗？在吗？在吗？ </view>
+      </view>
+      <view class="_view data-v-2ba394d8 my">
+        <view class="_view data-v-2ba394d8 my-box"> 在吗？在吗？在吗？在吗？在吗？ </view>
+        <view class="_view data-v-2ba394d8 my-image">
+          <image src="../../static/bg.jpg" class="_image data-v-2ba394d8"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-2ba394d8 send-message">
+      <image class="_image data-v-2ba394d8 mgl mgr" src="../../static/yuyin.png" mode></image>
+      <input type="text" class="_input data-v-2ba394d8" />
+      <image class="_image data-v-2ba394d8 mgl" src="../../static/biaoqing.png" mode></image>
+      <image class="_image data-v-2ba394d8 mgl mgr" src="../../static/jiaohao_2.png" mode></image>
+    </view>
+  </view>
+</template>

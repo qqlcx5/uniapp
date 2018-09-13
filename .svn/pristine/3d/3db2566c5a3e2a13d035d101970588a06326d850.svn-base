@@ -1,0 +1,47 @@
+<import src="/components/number-box.vue.wxml" />
+<template name="7ac5de0a">
+  <view class="_view data-v-59eff0d8 page">
+    <view class="_view data-v-59eff0d8 header">
+      <view class="_view data-v-59eff0d8 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-59eff0d8"></image>
+      </view>
+      <view class="_view data-v-59eff0d8 header-content"> 购物车 </view>
+      <view class="_view data-v-59eff0d8 header-right"></view>
+    </view>
+    <view class="_view data-v-59eff0d8 uni-list">
+      <checkbox-group bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-59eff0d8">
+        <label class="_label data-v-59eff0d8 uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-59eff0d8">
+            <checkbox value="{{item.value}}" checked="{{item.checked}}" class="_checkbox data-v-59eff0d8"></checkbox>
+          </view>
+          <view class="_view data-v-59eff0d8 list-item">
+            <view class="_view data-v-59eff0d8 carimg">
+              <image src="../../static/shop.png" mode class="_image data-v-59eff0d8"></image>
+            </view>
+            <view class="_view data-v-59eff0d8 carRight">
+              <view class="_view data-v-59eff0d8">碧波币</view>
+              <view class="_view data-v-59eff0d8 car-price">
+                <view class="_view data-v-59eff0d8"> 9. 99NYC</view>
+                <view class="_view data-v-59eff0d8">
+                  <template data="{{...$root[$kk+'0-'+index], $root}}" is="43a3e0d0"></template>
+                </view>
+              </view>
+            </view>
+          </view>
+        </label>
+      </checkbox-group>
+    </view>
+    <view class="_view data-v-59eff0d8 fix">
+      <view class="_view data-v-59eff0d8 fixLeft">
+        <label class="_label data-v-59eff0d8 checkbox">
+          <checkbox value="cb" checked="true" class="_checkbox data-v-59eff0d8"></checkbox>全选 </label>
+      </view>
+      <view class="_view data-v-59eff0d8 fixright">
+        <view class="_view data-v-59eff0d8 fixnum">总计：
+          <label class="_span data-v-59eff0d8">5.3346 NYC</label>
+        </view>
+        <view class="_view data-v-59eff0d8 fixbtn" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"> 结算 </view>
+      </view>
+    </view>
+  </view>
+</template>

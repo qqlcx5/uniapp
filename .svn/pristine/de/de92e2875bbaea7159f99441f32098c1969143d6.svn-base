@@ -1,0 +1,51 @@
+<template name="nearbyFriend$0c8545f4">
+  <view class="_view data-v-2446bde6">
+    <view class="_view data-v-2446bde6 header">
+      <view class="_view data-v-2446bde6 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-2446bde6"></image>
+      </view>
+      <view class="_view data-v-2446bde6 header-content"> 附近的人 </view>
+      <view class="_view data-v-2446bde6 header-right"></view>
+    </view>
+    <view class="_view data-v-2446bde6">
+      <view class="_view data-v-2446bde6">
+        <view class="_view data-v-2446bde6 time-info">
+          <view class="_view data-v-2446bde6 time-img">
+            <image src="../../static/bg.jpg" mode class="_image data-v-2446bde6"></image>
+          </view>
+          <view class="_view data-v-2446bde6 time-title">
+            <view class="_h1 data-v-2446bde6"> Kabir </view>
+            <view class="_h3 data-v-2446bde6"> 100米以内 </view>
+          </view>
+          <view class="_view data-v-2446bde6 time-pay">
+            <view class="_view data-v-2446bde6 btn"> 打招呼 </view>
+          </view>
+        </view>
+        <view class="_view data-v-2446bde6 time-info">
+          <view class="_view data-v-2446bde6 time-img">
+            <image src="../../static/bg.jpg" mode class="_image data-v-2446bde6"></image>
+          </view>
+          <view class="_view data-v-2446bde6 time-title">
+            <view class="_h1 data-v-2446bde6"> Kabir </view>
+            <view class="_h3 data-v-2446bde6"> 100米以内 </view>
+          </view>
+          <view class="_view data-v-2446bde6 time-pay">
+            <view class="_view data-v-2446bde6 btn"> 打招呼 </view>
+          </view>
+        </view>
+        <view class="_view data-v-2446bde6 time-info">
+          <view class="_view data-v-2446bde6 time-img">
+            <image src="../../static/bg.jpg" mode class="_image data-v-2446bde6"></image>
+          </view>
+          <view class="_view data-v-2446bde6 time-title">
+            <view class="_h1 data-v-2446bde6"> Kabir </view>
+            <view class="_h3 data-v-2446bde6"> 100米以内 </view>
+          </view>
+          <view class="_view data-v-2446bde6 time-pay">
+            <view class="_view data-v-2446bde6 btn"> 打招呼 </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

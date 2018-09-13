@@ -1,0 +1,65 @@
+<template name="my_shop$407a66be">
+  <view class="_view data-v-2239ff52">
+    <view class="_view data-v-2239ff52 header">
+      <view class="_view data-v-2239ff52 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-2239ff52"></image>
+      </view>
+      <view class="_view data-v-2239ff52 header-content">我的店铺</view>
+      <view class="_view data-v-2239ff52 header-right"></view>
+    </view>
+    <view class="_view data-v-2239ff52 shop_self">
+      <image src="../../static/my_12.jpg" class="_image data-v-2239ff52"></image>
+      <view class="_view data-v-2239ff52 shop_self_t">
+        <view class="_p data-v-2239ff52">店铺2018456789</view>
+        <view class="_view data-v-2239ff52 shop_self_m">
+          <image src="../../static/my_14.png" class="_image data-v-2239ff52"></image>
+          <label class="_span data-v-2239ff52">厦门</label>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-2239ff52 shop-ins">
+      <view class="_p data-v-2239ff52">今日收入</view>
+      <view class="_p data-v-2239ff52">0.00</view>
+    </view>
+    <view class="_view data-v-2239ff52 shop-self-list">
+      <view class="_ul data-v-2239ff52">
+        <view class="_li data-v-2239ff52">
+          <view class="_p data-v-2239ff52">0</view>
+          <view class="_p data-v-2239ff52">今日访客</view>
+        </view>
+        <view class="_li data-v-2239ff52">
+          <view class="_p data-v-2239ff52">0</view>
+          <view class="_p data-v-2239ff52">本月订单</view>
+        </view>
+        <view class="_li data-v-2239ff52">
+          <view class="_p data-v-2239ff52">0</view>
+          <view class="_p data-v-2239ff52">月交易额</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-2239ff52 shop-add-s">
+      <image src="../../static/my_15.png" class="_image data-v-2239ff52"></image>
+      <label class="_span data-v-2239ff52">添加商品</label>
+    </view>
+    <view class="_view data-v-2239ff52 shop-bottom-l">
+      <view class="_ul data-v-2239ff52">
+        <view class="_li data-v-2239ff52">
+          <image src="../../static/my_16.png" class="_image data-v-2239ff52"></image>
+          <view class="_p data-v-2239ff52">店铺管理</view>
+        </view>
+        <view class="_li data-v-2239ff52">
+          <image src="../../static/my_17.png" class="_image data-v-2239ff52"></image>
+          <view class="_p data-v-2239ff52">订单管理</view>
+        </view>
+        <view class="_li data-v-2239ff52">
+          <image src="../../static/my_18.png" class="_image data-v-2239ff52"></image>
+          <view class="_p data-v-2239ff52">商品管理</view>
+        </view>
+        <view class="_li data-v-2239ff52">
+          <image src="../../static/my_19.png" class="_image data-v-2239ff52"></image>
+          <view class="_p data-v-2239ff52">发布商品</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

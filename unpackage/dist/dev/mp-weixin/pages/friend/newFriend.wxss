@@ -1,0 +1,135 @@
+@import "../../common/vendor.wxss";
+
+.header {
+  height: 100rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #FFFFFF;
+}
+.header-left,
+.header-right {
+  width: 100rpx;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.header image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.header-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+.time {
+  height: 60rpx;
+  width: 100%;
+  padding-left: 20rpx;
+  line-height: 80rpx;
+  color: #b6b6b6;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.time-info {
+  height: 180rpx;
+  max-width: 100%;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 20rpx;
+}
+.time-img {
+  height: 180rpx;
+  width: 180rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.time-img image {
+  border-radius: 50%;
+  max-height: 120rpx;
+  max-width: 120rpx;
+}
+.time-title {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.time-title ._p:nth-child(1) {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 32rpx;
+  color: #585858;
+}
+.time-title ._p:nth-child(2) {
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  color: #b6b6b6;
+}
+.time-title ._p:nth-child(3) {
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 20rpx;
+  color: #b6b6b6;
+}
+.time-pay {
+  min-width: 160rpx;
+  margin-right: 20rpx;
+  font-size: 28.000000000000004rpx;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.line {
+  width: 4rpx;
+  height: 28rpx;
+  background: #eee;
+  margin: 0 10rpx;
+}
+.green {
+  color: #79c343;
+}
+.red {
+  color: #e97b78;
+}
+.time-agree {
+  color: #b6b6b6;
+}

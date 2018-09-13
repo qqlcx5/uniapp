@@ -1,0 +1,20 @@
+<template name="tel$75ac81bc">
+  <view class="_view data-v-e990f18a">
+    <view class="_view data-v-e990f18a header">
+      <view class="_view data-v-e990f18a header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-e990f18a"></image>
+      </view>
+      <view class="_view data-v-e990f18a header-content"> 绑定手机号 </view>
+      <view class="_view data-v-e990f18a header-right green"></view>
+    </view>
+    <view class="_div data-v-e990f18a content">
+      <view class="_div data-v-e990f18a phone-img">
+        <image src="../../static/shouji_3.png" mode class="_image data-v-e990f18a"></image>
+      </view>
+      <view class="_div data-v-e990f18a tel">
+        <label class="_span data-v-e990f18a">您的手机号：</label>15965621233</view>
+      <view class="_div data-v-e990f18a btn green">上传通讯录找好友</view>
+      <view class="_div data-v-e990f18a btn">更换手机号码</view>
+    </view>
+  </view>
+</template>

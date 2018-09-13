@@ -1,0 +1,29 @@
+<template name="ee61bda8">
+  <view class="_view data-v-1ba5011a page">
+    <view class="_view data-v-1ba5011a header">
+      <view class="_view data-v-1ba5011a header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-1ba5011a"></image>
+      </view>
+      <view class="_view data-v-1ba5011a header-content"> 接收币种 </view>
+      <view class="_view data-v-1ba5011a header-right"></view>
+    </view>
+    <view class="_view data-v-1ba5011a qrcode">
+      <view class="_view data-v-1ba5011a qrheader">
+        <image src="../../static/qianbao.png" mode class="_image data-v-1ba5011a"></image>
+        <label class="_span data-v-1ba5011a">二维码收币</label>
+      </view>
+      <view class="_view data-v-1ba5011a image-box">
+        <image src="../../static/qrcode.jpg" class="_image data-v-1ba5011a"></image>
+      </view>
+      <view class="_p data-v-1ba5011a">请发送者通过二维码扫描支付</view>
+    </view>
+    <view class="_view data-v-1ba5011a address">
+      <view class="_p data-v-1ba5011a">需要接收的数量（可选）</view>
+      <view class="_view data-v-1ba5011a address-item">
+        <view class="_p data-v-1ba5011a">数量（个）</view>
+        <input type="number" placeholder-class="place" placeholder="0" name id class="_input data-v-1ba5011a" />
+      </view>
+    </view>
+    <view class="_view data-v-1ba5011a btn">确定</view>
+  </view>
+</template>

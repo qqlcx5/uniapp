@@ -1,0 +1,85 @@
+@import "../../common/vendor.wxss";
+
+.header-bg {
+  width: 100%;
+  height: 55.55vw;
+  overflow: hidden;
+  position: relative;
+}
+.header-back {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  left: 25rpx;
+  top: 40rpx;
+  z-index: 1;
+}
+.header-image {
+  width: 100%;
+}
+.item {
+  margin-top: 20rpx;
+  height: 320rpx;
+  background-color: #ffffff;
+  box-shadow: 0 0 4rpx 0 #cccccc;
+  padding: 20rpx;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.item-left {
+  height: 280rpx;
+  width: 280rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.item-left image {
+  max-height: 180rpx;
+  max-width: 180rpx;
+}
+.item-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  height: 280rpx;
+}
+.item-title {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 48rpx;
+  color: #6c6c6c;
+}
+.item-desc {
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #6c6c6c;
+  font-size: 28rpx;
+}
+.item-btn {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-top: 40rpx;
+  margin-right: 40rpx;
+  height: 86rpx;
+  background-color: #8cafea;
+  color: #FFFFFF;
+  font-size: 32rpx;
+}

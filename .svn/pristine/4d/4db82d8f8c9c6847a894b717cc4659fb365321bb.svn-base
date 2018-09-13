@@ -1,0 +1,43 @@
+<template name="my_rect$25a4beac">
+  <view class="_view data-v-57e54f76">
+    <view class="_view data-v-57e54f76 header">
+      <view class="_view data-v-57e54f76 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-57e54f76"></image>
+      </view>
+      <view class="_view data-v-57e54f76 header-content"> 交易记录 </view>
+      <view class="_view data-v-57e54f76 header-right"></view>
+    </view>
+    <view class="_view data-v-57e54f76 body-content">
+      <view class="_view data-v-57e54f76 top-pic">
+        <image src="../../static/my_10.jpg" class="_image data-v-57e54f76"></image>
+      </view>
+      <view class="_view data-v-57e54f76 rec-title">
+        <view class="_ul data-v-57e54f76">
+          <view class="_li data-v-57e54f76">
+            <view class="_p data-v-57e54f76">总资产</view>
+            <view class="_p data-v-57e54f76">6.32CNY</view>
+          </view>
+          <view class="_li data-v-57e54f76">
+            <view class="_p data-v-57e54f76">本月支出</view>
+            <view class="_p data-v-57e54f76">2.365CNY</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-57e54f76 rec-list">
+        <view class="_ul data-v-57e54f76">
+          <view class="_li data-v-57e54f76">
+            <image src="../../static/my_11.jpg" class="_image data-v-57e54f76"></image>
+            <view class="_view data-v-57e54f76 rect-list-t">
+              <view class="_p data-v-57e54f76">碧波币</view>
+              <view class="_p data-v-57e54f76">[买入]</view>
+              <view class="_p data-v-57e54f76">今天 12:56</view>
+            </view>
+            <view class="_view data-v-57e54f76 rect-list-l">
+              <view class="_p data-v-57e54f76">-0.82 CNY</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

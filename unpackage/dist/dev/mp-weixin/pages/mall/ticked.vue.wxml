@@ -1,0 +1,35 @@
+<import src="/components/number-box.vue.wxml" />
+<template name="466b82a2">
+  <view class="_view data-v-876cde14 page">
+    <view class="_view data-v-876cde14 header">
+      <view class="_view data-v-876cde14 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-876cde14"></image>
+      </view>
+      <view class="_view data-v-876cde14 header-content"> 购物车 </view>
+      <view class="_view data-v-876cde14 header-right">
+        <image src="../../static/message.png" mode class="_image data-v-876cde14"></image>
+      </view>
+    </view>
+    <view class="_view data-v-876cde14 ticked">
+      <view class="_view data-v-876cde14 ticked-title">碧波币</view>
+      <view class="_view data-v-876cde14 ticked-content">
+        <image src="../../static/ticked_2.png" mode class="_image data-v-876cde14"></image>92代100 BBB券</view>
+      <view class="_view data-v-876cde14 ticked-desc">周一至周日可用 | 全场通用 | 免预约 | 可叠加</view>
+    </view>
+    <view class="_view data-v-876cde14 list">
+      <view class="_view data-v-876cde14 item">
+        <view class="_view data-v-876cde14">买入数量</view>
+        <template data="{{...$root[$kk+'0'], $root}}" is="43a3e0d0"></template>
+      </view>
+      <view class="_view data-v-876cde14 item">
+        <view class="_view data-v-876cde14">实付金额</view>
+        <view class="_view data-v-876cde14 money">CNY 184</view>
+      </view>
+      <view class="_view data-v-876cde14 item">
+        <view class="_view data-v-876cde14">手机号</view>
+        <view class="_view data-v-876cde14 tel">159****1537</view>
+      </view>
+    </view>
+    <view class="_view data-v-876cde14 btn"> 确认支付 </view>
+  </view>
+</template>

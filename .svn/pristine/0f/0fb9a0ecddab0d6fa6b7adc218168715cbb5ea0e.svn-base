@@ -1,0 +1,1 @@
+<import src="/pages/wealth/crrencyRecord.vue.wxml" /><template is="3fa701e9" data="{{ ...$root['0'], $root }}"/>

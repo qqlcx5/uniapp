@@ -1,0 +1,7 @@
+<template name="43a3e0d0">
+  <view class="_view data-v-eaf5336c uni-numbox">
+    <view class="_view data-v-eaf5336c uni-numbox-minus {{[disableSubtract ? 'uni-numbox-disabled' : '']}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">-</view>
+    <input class="_input data-v-eaf5336c uni-numbox-value" type="number" value="{{value}}" bindinput="handleProxy" bindblur="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" />
+    <view class="_view data-v-eaf5336c uni-numbox-plus {{[disableAdd ? 'uni-numbox-disabled' : '']}}" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">+</view>
+  </view>
+</template>

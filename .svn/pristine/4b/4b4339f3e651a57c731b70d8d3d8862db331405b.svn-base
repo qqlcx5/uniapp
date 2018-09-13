@@ -1,0 +1,1 @@
+<import src="/pages/wealth/tickRecord.vue.wxml" /><template is="6ecafa08" data="{{ ...$root['0'], $root }}"/>

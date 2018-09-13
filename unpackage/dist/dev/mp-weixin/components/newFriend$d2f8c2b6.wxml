@@ -1,0 +1,45 @@
+<template name="newFriend$d2f8c2b6">
+  <view class="_view data-v-30d1a004">
+    <view class="_view data-v-30d1a004 header">
+      <view class="_view data-v-30d1a004 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-30d1a004"></image>
+      </view>
+      <view class="_view data-v-30d1a004 header-content"> 新的朋友 </view>
+      <view class="_view data-v-30d1a004 header-right"> 添加 </view>
+    </view>
+    <view class="_view data-v-30d1a004">
+      <view class="_view data-v-30d1a004 time">2018年8月16日</view>
+      <view class="_view data-v-30d1a004 time-info">
+        <view class="_view data-v-30d1a004 time-img">
+          <image src="../../static/bg.jpg" mode class="_image data-v-30d1a004"></image>
+        </view>
+        <view class="_view data-v-30d1a004 time-title">
+          <view class="_p data-v-30d1a004">Kabir</view>
+          <view class="_p data-v-30d1a004">我是夸克币的总监</view>
+          <view class="_p data-v-30d1a004">来源：碧波账号搜索</view>
+        </view>
+        <view class="_view data-v-30d1a004 time-pay">
+          <view class="_view data-v-30d1a004 time-agree">已同意</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-30d1a004">
+      <view class="_view data-v-30d1a004 time">2018年8月16日</view>
+      <view class="_view data-v-30d1a004 time-info">
+        <view class="_view data-v-30d1a004 time-img">
+          <image src="../../static/bg.jpg" mode class="_image data-v-30d1a004"></image>
+        </view>
+        <view class="_view data-v-30d1a004 time-title">
+          <view class="_p data-v-30d1a004">Kabir</view>
+          <view class="_p data-v-30d1a004">我是夸克币的总监</view>
+          <view class="_p data-v-30d1a004">来源：碧波账号搜索</view>
+        </view>
+        <view class="_view data-v-30d1a004 time-pay">
+          <view class="_view data-v-30d1a004 green">同意</view>
+          <view class="_i data-v-30d1a004 line"></view>
+          <view class="_view data-v-30d1a004 red">拒绝</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

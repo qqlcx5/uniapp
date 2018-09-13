@@ -1,0 +1,45 @@
+<template name="2ac82276">
+  <view class="_view data-v-3baf801e">
+    <view class="_view data-v-3baf801e header">
+      <view class="_view data-v-3baf801e header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-3baf801e"></image>
+      </view>
+      <view class="_view data-v-3baf801e header-content"> 新的朋友 </view>
+      <view class="_view data-v-3baf801e header-right" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}"> 添加 </view>
+    </view>
+    <view class="_view data-v-3baf801e">
+      <view class="_view data-v-3baf801e time">2018年8月16日</view>
+      <view class="_view data-v-3baf801e time-info">
+        <view class="_view data-v-3baf801e time-img">
+          <image src="../../static/bg.jpg" mode class="_image data-v-3baf801e"></image>
+        </view>
+        <view class="_view data-v-3baf801e time-title">
+          <view class="_p data-v-3baf801e">Kabir</view>
+          <view class="_p data-v-3baf801e">我是夸克币的总监</view>
+          <view class="_p data-v-3baf801e">来源：碧波账号搜索</view>
+        </view>
+        <view class="_view data-v-3baf801e time-pay">
+          <view class="_view data-v-3baf801e time-agree">已同意</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-3baf801e">
+      <view class="_view data-v-3baf801e time">2018年8月16日</view>
+      <view class="_view data-v-3baf801e time-info">
+        <view class="_view data-v-3baf801e time-img">
+          <image src="../../static/bg.jpg" mode class="_image data-v-3baf801e"></image>
+        </view>
+        <view class="_view data-v-3baf801e time-title">
+          <view class="_p data-v-3baf801e">Kabir</view>
+          <view class="_p data-v-3baf801e">我是夸克币的总监</view>
+          <view class="_p data-v-3baf801e">来源：碧波账号搜索</view>
+        </view>
+        <view class="_view data-v-3baf801e time-pay">
+          <view class="_view data-v-3baf801e green">同意</view>
+          <view class="_i data-v-3baf801e line"></view>
+          <view class="_view data-v-3baf801e red">拒绝</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

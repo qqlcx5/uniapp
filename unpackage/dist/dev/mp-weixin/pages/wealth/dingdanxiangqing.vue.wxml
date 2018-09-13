@@ -1,0 +1,28 @@
+<template name="7c6f543e">
+  <view class="_view data-v-4d083e68 page">
+    <view class="_view data-v-4d083e68 header">
+      <view class="_view data-v-4d083e68 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-4d083e68"></image>
+      </view>
+      <view class="_view data-v-4d083e68 header-content"> 订单详情 </view>
+      <view class="_view data-v-4d083e68 header-right"> 完成 </view>
+    </view>
+    <view class="_view data-v-4d083e68 info">
+      <view class="_view data-v-4d083e68 item">
+        <view class="_h3 data-v-4d083e68">转换提交申请</view>
+        <view class="_p data-v-4d083e68 item-desc">您已提交转换申请</view>
+        <view class="_p data-v-4d083e68 item-time">2018年9月4日 13:53</view>
+      </view>
+      <view class="_view data-v-4d083e68 item">
+        <view class="_h3 data-v-4d083e68">努力转换中</view>
+        <view class="_p data-v-4d083e68 item-desc">您的订单会尽快进行处理</view>
+        <view class="_p data-v-4d083e68 item-time">2018年9月4日 13:54</view>
+      </view>
+      <view class="_view data-v-4d083e68 item">
+        <view class="_h3 data-v-4d083e68">转换成功</view>
+        <view class="_p data-v-4d083e68 item-time">2018年9月4日 13:53</view>
+      </view>
+    </view>
+    <view class="_view data-v-4d083e68 btn">再次转换</view>
+  </view>
+</template>

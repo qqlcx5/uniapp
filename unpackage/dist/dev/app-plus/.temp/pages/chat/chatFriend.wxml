@@ -1,0 +1,1 @@
+<import src="../../components/chatFriend$ddc620b6" /><template is="chatFriend$ddc620b6" data="{{ ...$root['0'], $root }}"/>

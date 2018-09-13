@@ -1,0 +1,75 @@
+<template name="445b15c7">
+  <view class="_view data-v-0223ab0e">
+    <view class="_view data-v-0223ab0e header-fix">
+      <view class="_view data-v-0223ab0e header">
+        <view class="_view data-v-0223ab0e header-left">
+          <image src="../../static/chat_01.png" mode class="_image data-v-0223ab0e"></image>
+        </view>
+        <view class="_view data-v-0223ab0e header-content"> 朋友 </view>
+        <view class="_view data-v-0223ab0e header-right" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+          <image src="../../static/add.png" mode class="_image data-v-0223ab0e"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-0223ab0e search-box">
+      <view class="_view data-v-0223ab0e search" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+        <image class="_image data-v-0223ab0e search-icon" src="../../static/sousuo.png"></image> 搜索 </view>
+    </view>
+    <view class="_view data-v-0223ab0e friend-box">
+      <view class="_ul data-v-0223ab0e">
+        <view class="_li data-v-0223ab0e friend-li border-bot" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+          <image src="../../static/pengyou.png" alt class="_image data-v-0223ab0e mglr"></image> 新的朋友 </view>
+        <view class="_li data-v-0223ab0e friend-li" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">
+          <image src="../../static/tongxinlu.png" alt class="_image data-v-0223ab0e mglr"></image> 手机联系人 </view>
+      </view>
+    </view>
+    <view class="_view data-v-0223ab0e">
+      <view class="_ul data-v-0223ab0e list">
+        <view class="_li data-v-0223ab0e item">A</view>
+        <view class="_li data-v-0223ab0e item">B</view>
+        <view class="_li data-v-0223ab0e item">C</view>
+        <view class="_li data-v-0223ab0e item">D</view>
+        <view class="_li data-v-0223ab0e item">E</view>
+        <view class="_li data-v-0223ab0e item">F</view>
+        <view class="_li data-v-0223ab0e item">G</view>
+        <view class="_li data-v-0223ab0e item">H</view>
+        <view class="_li data-v-0223ab0e item">I</view>
+        <view class="_li data-v-0223ab0e item">J</view>
+        <view class="_li data-v-0223ab0e item">K</view>
+        <view class="_li data-v-0223ab0e item">L</view>
+      </view>
+    </view>
+    <view class="_view data-v-0223ab0e">
+      <view class="_article data-v-0223ab0e area">
+        <view class="_div data-v-0223ab0e area-title">A</view>
+        <view class="_div data-v-0223ab0e area-item">
+          <view class="_view data-v-0223ab0e area-image">
+            <image src="../../static/bg.jpg" mode class="_image data-v-0223ab0e"></image>
+          </view>
+          <view class="_view data-v-0223ab0e"> 啊啊啊啊啊啊 </view>
+        </view>
+        <view class="_div data-v-0223ab0e area-item">
+          <view class="_view data-v-0223ab0e area-image">
+            <image src="../../static/bg.jpg" mode class="_image data-v-0223ab0e"></image>
+          </view>
+          <view class="_view data-v-0223ab0e"> 啊啊啊啊啊啊 </view>
+        </view>
+      </view>
+      <view class="_article data-v-0223ab0e area">
+        <view class="_div data-v-0223ab0e area-title">B</view>
+        <view class="_div data-v-0223ab0e area-item">
+          <view class="_view data-v-0223ab0e area-image">
+            <image src="../../static/bg.jpg" mode class="_image data-v-0223ab0e"></image>
+          </view>
+          <view class="_view data-v-0223ab0e"> 啊啊啊啊啊啊 </view>
+        </view>
+        <view class="_div data-v-0223ab0e area-item">
+          <view class="_view data-v-0223ab0e area-image">
+            <image src="../../static/bg.jpg" mode class="_image data-v-0223ab0e"></image>
+          </view>
+          <view class="_view data-v-0223ab0e"> 啊啊啊啊啊啊 </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

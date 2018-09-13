@@ -1,0 +1,76 @@
+
+.header {
+  height: 100rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #FFFFFF;
+}
+.header-left,
+.header-right {
+  width: 100rpx;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.header image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.header-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.phone-img {
+  margin: 40rpx 0;
+  max-width: 320rpx;
+  max-height: 320rpx;
+}
+.phone-img image {
+  max-width: 320rpx;
+  max-height: 320rpx;
+}
+.tel {
+  font-size: 36rpx;
+  color: #585858;
+  margin-bottom: 40rpx;
+}
+.btn {
+  width: 400rpx;
+  height: 70rpx;
+  border-radius: 18rpx;
+  text-align: center;
+  line-height: 70rpx;
+  margin-top: 40rpx;
+  background: #fff;
+  color: #b6b6b6;
+}
+.content .green {
+  background: #79c343;
+  color: #fff;
+}

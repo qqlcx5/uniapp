@@ -1,0 +1,45 @@
+<template name="7d38c4a8">
+  <view class="_view data-v-4e975e6f page">
+    <view class="_view data-v-4e975e6f header">
+      <image src="../../static/mybg.png" mode class="_image data-v-4e975e6f"></image>
+      <view class="_view data-v-4e975e6f header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left_01.png" class="_image data-v-4e975e6f"></image>
+      </view>
+      <view class="_view data-v-4e975e6f headermask"></view>
+      <view class="_view data-v-4e975e6f user-info">
+        <image class="_image data-v-4e975e6f face" src="../../static/bg.jpg"></image>
+        <view class="_view data-v-4e975e6f user-name"> 克里斯
+          <image src="../../static/xiugai.png" mode bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_image data-v-4e975e6f"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-4e975e6f content">
+      <view class="_view data-v-4e975e6f bigbox">
+        <view class="_view data-v-4e975e6f box">
+          <view class="_view data-v-4e975e6f item">
+            <image src="../../static/myselect.png" mode class="_image data-v-4e975e6f"></image> 尼古拉斯（1844663555） </view>
+          <view class="_view data-v-4e975e6f item">
+            <image src="../../static/jianjie.png" mode class="_image data-v-4e975e6f"></image> 男 27岁 摩羯座 </view>
+          <view class="_view data-v-4e975e6f item">
+            <image src="../../static/weizhi.png" mode class="_image data-v-4e975e6f"></image> 福建－厦门 </view>
+        </view>
+      </view>
+      <view class="_view data-v-4e975e6f chat">
+        <view class="_view data-v-4e975e6f list">
+          <view class="_view data-v-4e975e6f item-content"> 聊天记录 </view>
+          <view class="_view data-v-4e975e6f item-right">
+            <image src="../../static/right.png" mode class="_image data-v-4e975e6f"></image>
+          </view>
+        </view>
+        <view class="_view data-v-4e975e6f list">
+          <view class="_view data-v-4e975e6f item-content"> 屏蔽此人 </view>
+          <view class="_view data-v-4e975e6f item-right">
+            <switch class="_switch data-v-4e975e6f" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-4e975e6f btn1" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}"> 发消息 </view>
+      <view class="_view data-v-4e975e6f btn2"> 删除好友 </view>
+    </view>
+  </view>
+</template>

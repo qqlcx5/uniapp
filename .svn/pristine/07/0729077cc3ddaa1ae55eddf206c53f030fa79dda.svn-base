@@ -1,0 +1,49 @@
+<template name="49c9b398">
+  <view class="_view data-v-3de8f79f">
+    <view class="_view data-v-3de8f79f header">
+      <view class="_view data-v-3de8f79f header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left_2.png" mode class="_image data-v-3de8f79f"></image>
+      </view>
+      <view class="_view data-v-3de8f79f header-content"> 碧波币 </view>
+      <view class="_view data-v-3de8f79f header-right">
+        <image src="../../static/sousuo.png" mode class="_image data-v-3de8f79f"></image>
+      </view>
+    </view>
+    <view class="_view data-v-3de8f79f header_title">
+      <view class="_p data-v-3de8f79f header-title">100BBB</view>
+      <view class="_p data-v-3de8f79f header-desc">行情价：0.00092 CNY/BBB</view>
+      <image src="../../static/bbsjbg.png" class="_image data-v-3de8f79f"></image>
+    </view>
+    <view class="_view data-v-3de8f79f main">
+      <view class="_view data-v-3de8f79f main_info">
+        <view class="_view data-v-3de8f79f main_info_title">
+          <view class="_i data-v-3de8f79f"></view>碧波币介绍 </view>
+        <view class="_view data-v-3de8f79f main-image">
+          <image src="../../static/logo_2.png" class="_image data-v-3de8f79f"></image>
+          <view class="_p data-v-3de8f79f">碧波币（Bibobi）是一种P2P形式的数字货币。</view>
+        </view>
+      </view>
+      <view class="_view data-v-3de8f79f main-site">
+        <view class="_view data-v-3de8f79f main_info_title">
+          <view class="_i data-v-3de8f79f"></view>碧波币地址簿 </view>
+        <view class="_view data-v-3de8f79f address">
+          <view class="_view data-v-3de8f79f site-item" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+            <image class="_image data-v-3de8f79f site-item-image" src="../../static/qiangdao.png"></image>
+            <view class="_view data-v-3de8f79f site-item-content"> 碧波地址 </view>
+            <image class="_image data-v-3de8f79f site-item-right" src="../../static/right.png" mode></image>
+          </view>
+          <view class="_view data-v-3de8f79f site-item" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+            <image class="_image data-v-3de8f79f site-item-image" src="../../static/qiangdao.png"></image>
+            <view class="_view data-v-3de8f79f site-item-content"> 接收地址 </view>
+            <image class="_image data-v-3de8f79f site-item-right" src="../../static/right.png" mode></image>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-3de8f79f main-btn">
+        <view class="_view data-v-3de8f79f btn-item mgr" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}"> 充币 </view>
+        <view class="_view data-v-3de8f79f btn-item mgr mgl" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}"> 提取 </view>
+        <view class="_view data-v-3de8f79f btn-item mgl" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}"> 兑换 </view>
+      </view>
+    </view>
+  </view>
+</template>

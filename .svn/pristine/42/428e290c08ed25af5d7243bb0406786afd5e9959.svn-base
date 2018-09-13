@@ -1,0 +1,300 @@
+<template>
+	<view>
+		
+		<view style="position: fixed; z-index: 100;">
+		<view class="status-contents">
+			<view class="status top-view"></view>
+		</view>
+
+		<view class="search-color">
+			<view class="search-left">
+				<image src="../../static/sys.png" class="search-img" @tap="scanCode"></image>
+			</view>
+			<view class="search-center">
+				<view class="search">
+				</view>
+			</view>
+			<view class="search-right" @click="gotoDetail">
+				<image src="../../static/message.png" class="search-img"></image>
+				
+			</view>
+		</view>
+		
+		</view>
+		
+		<view style="position:absolute;top: 100px; ">
+		<view class="page-body">
+			<view class="swiper-item">
+				<swiper :indicator-dots="true" :autoplay="true" :interval="5000" :duration="duration" style="height: 371px;">
+					<swiper-item v-for="(img,key) in imgUrls" :key="key">
+						<image :src="img" style="height: 400px;" class="swiper-img" />
+					</swiper-item>
+				</swiper>
+			</view>
+
+
+			<!-- <view class="category">
+
+				<view class="category-sub ml-40">
+					<image src="../../static/Group1.png" class="category-image "></image>
+					<view class="text">人气推荐</view>
+				</view>
+
+				<view class="category-sub ml-65">
+					<image src="../../static/Group2.png" class="category-image"></image>
+					<view class="text">优惠活动</view>
+				</view>
+
+				<view class="category-sub  ml-65">
+					<image src="../../static/Group3.png" class="category-image"></image>
+					<view class="text">最新上架</view>
+				</view>
+
+				<view class="category-sub ml-65">
+					<image src="../../static/Group4.png" class="category-image"></image>
+					<view class="text">全部分类</view>
+				</view>
+
+			</view> -->
+
+			<view class="tuijian-title ">【热卖推荐】</view>
+
+			<view class="tuijian">
+				<view class="tuijian-des">
+					碧波币（bibobi），是一种P2P形式的数字货币。
+				</view>
+				<image src="../../static/image1.png" class="tuijian-img"></image>
+				<view class="tuijian-content">
+					<view class="tuijian-content-left">
+						<view class="text">碧波币</view>
+						<view class=" price">1.256 CNY</view>
+					</view>
+					<view class="tuijian-content-right">
+						<button class="tuijian-button">购买</button>
+					</view>
+				</view>
+			</view>
+
+			<view class="tuijian">
+				<view class="tuijian-des">
+					碧波币（bibobi），是一种P2P形式的数字货币。
+				</view>
+				<image src="../../static/image1.png" class="tuijian-img"></image>
+				<view class="tuijian-content">
+					<view class="tuijian-content-left">
+						<view class="text">碧波币</view>
+						<view class=" price">1.256 CNY</view>
+					</view>
+					<view class="tuijian-content-right">
+						<button class="tuijian-button">购买</button>
+					</view>
+				</view>
+			</view>
+
+			<view class="tuijian">
+				<view class="tuijian-des">
+					碧波币（bibobi），是一种P2P形式的数字货币。
+				</view>
+				<image src="../../static/image1.png" class="tuijian-img"></image>
+				<view class="tuijian-content">
+					<view class="tuijian-content-left">
+						<view class="text">碧波币</view>
+						<view class=" price">1.256 CNY</view>
+					</view>
+					<view class="tuijian-content-right">
+						<button class="tuijian-button">购买</button>
+					</view>
+				</view>
+			</view>
+
+
+		</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data: {
+
+			imgUrls: [
+				'https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/shuijiao.jpg',
+				'https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg',
+				'https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/cbd.jpg'
+			]
+		},
+		methods: {
+			scanCode: function () {
+				var that = this
+				uni.scanCode({
+					success: function (res) {
+						that.result = res.result
+					},
+					fail: function (res) {}
+				})
+			},
+			gotoDetail(){
+				uni.navigateTo({
+					url: "mallMessage"
+				})
+			},
+		}
+
+
+	}
+</script>
+
+<style>
+	page {
+		background: #FFFFFF;
+	}
+
+	.swiper-item {
+		display: block;
+		height: 370px;
+		text-align: center;
+	}
+
+
+	.search-color {
+		width: 100%;
+		display: flex;
+		overflow-x: hidden;
+		flex-direction: row;
+		background: #1E1E78;
+		height: 70px;
+
+	}
+
+	.search-img {
+		width: 40px;
+		height: 40px;
+		padding: 15px 30px;
+	}
+
+
+	.swiper-img {
+		width: 100%;
+	}
+
+	.search-left {
+		width: 100px;
+		height: 100px;
+	}
+
+
+	.search {
+		width: 530px;
+		height: 40px;
+		margin: 15px 10px;
+		background: #FFFFFF;
+		border-radius: 200px;
+	}
+
+	.search-right {
+		width: 100px;
+		height: 100px;
+	}
+
+	.category,
+	.tuijian-title,
+	.tuijian,
+	.tuijian-des,
+	.tuijian-img,
+	.tuijian-content {
+		display: flex;
+		width: 680px;
+		flex-direction: row;
+	}
+
+	.tuijian-img {
+		width: 100%;
+		height: 278px;
+		margin-top: 10px;
+	}
+
+	.category {
+		height: 175px;
+		margin: 20px 35px 0px 35px;
+	}
+
+	.tuijian-content {
+		display: flex;
+		flex: 1;
+
+		height: 90px;
+		flex-direction: row;
+		margin-top: 20px;
+	}
+
+	.price {
+		color: #e97b78;
+	}
+
+	.tuijian-title {
+		height: 60px;
+		line-height: 60px;
+		text-align: center;
+		font-weight: bold;
+		display: block;
+		margin: 20px 35px;
+	}
+
+	.tuijian {
+		display: flex;
+		flex-direction: column;
+		margin: 10px 35px 20px 35px;
+	}
+
+	.tuijian-des {
+		height: 40px;
+		font-size: 25px;
+		color: #b6b6b6;
+		text-align: center;
+		display: block;
+	}
+
+	.category-image {
+		width: 100px;
+		height: 100px;
+	}
+
+	.category-sub {
+		flex-direction: column;
+	}
+
+	.tuijian-content-left {
+		width: 400px;
+
+		display: flex;
+		flex-direction: column;
+		margin-left: 60px;
+	}
+
+	.tuijian-content-right {
+		width: 180px;
+	}
+
+	.tuijian-button {
+		width: 155px;
+		height: 70px;
+		line-height: 70px;
+		border-radius: 20px;
+		background: #8cafea;
+		color: #FFFFFF;
+	}
+
+
+	.text {
+		font-size: 25px;
+		color: #7d7d7d;
+	}
+
+	.ml-40 {
+		margin-left: 40px;
+	}
+
+	.ml-65 {
+		margin-left: 65px;
+	}
+</style>

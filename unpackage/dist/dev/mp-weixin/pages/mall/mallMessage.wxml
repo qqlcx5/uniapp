@@ -1,0 +1,1 @@
+<import src="/pages/mall/mallMessage.vue.wxml" /><template is="13a55e30" data="{{ ...$root['0'], $root }}"/>

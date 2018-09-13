@@ -1,0 +1,108 @@
+<template name="chatFriend$001b24a4">
+  <view class="_view data-v-db3a39ea">
+    <view class="_view data-v-db3a39ea header">
+      <view class="_view data-v-db3a39ea header-left">
+        <image src="../../static/sys_2.png" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_image data-v-db3a39ea"></image>
+      </view>
+      <view class="_view data-v-db3a39ea header-content">
+        <view class="_view data-v-db3a39ea header-content-item">
+          <view class="_view data-v-db3a39ea header-content-item-title" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">聊天</view>
+          <view class="_view data-v-db3a39ea header-content-item-title selected">朋友</view>
+        </view>
+      </view>
+      <view class="_view data-v-db3a39ea header-right">
+        <image src="../../static/add.png" mode class="_image data-v-db3a39ea"></image>
+      </view>
+    </view>
+    <view class="_view data-v-db3a39ea search-box">
+      <view class="_view data-v-db3a39ea search">
+        <image class="_image data-v-db3a39ea search-icon" src="../../static/sousuo.png" mode></image> 搜索 </view>
+    </view>
+    <view class="_view data-v-db3a39ea friend-box">
+      <view class="_ul data-v-db3a39ea">
+        <view class="_li data-v-db3a39ea friend-li border-bot">
+          <image src="../../static/pengyou.png" alt class="_image data-v-db3a39ea mglr"></image> 新的朋友 </view>
+        <view class="_li data-v-db3a39ea friend-li">
+          <image src="../../static/tongxinlu.png" alt class="_image data-v-db3a39ea mglr"></image> 手机联系人 </view>
+      </view>
+    </view>
+    <view class="_view data-v-db3a39ea">
+      <view class="_ul data-v-db3a39ea list">
+        <view class="_li data-v-db3a39ea item">A</view>
+        <view class="_li data-v-db3a39ea item">B</view>
+        <view class="_li data-v-db3a39ea item">C</view>
+        <view class="_li data-v-db3a39ea item">D</view>
+        <view class="_li data-v-db3a39ea item">E</view>
+        <view class="_li data-v-db3a39ea item">F</view>
+        <view class="_li data-v-db3a39ea item">G</view>
+        <view class="_li data-v-db3a39ea item">H</view>
+        <view class="_li data-v-db3a39ea item">I</view>
+        <view class="_li data-v-db3a39ea item">J</view>
+        <view class="_li data-v-db3a39ea item">K</view>
+        <view class="_li data-v-db3a39ea item">L</view>
+        <view class="_li data-v-db3a39ea item">N</view>
+        <view class="_li data-v-db3a39ea item">M</view>
+        <view class="_li data-v-db3a39ea item">O</view>
+        <view class="_li data-v-db3a39ea item">P</view>
+        <view class="_li data-v-db3a39ea item">Q</view>
+        <view class="_li data-v-db3a39ea item">R</view>
+        <view class="_li data-v-db3a39ea item">R</view>
+        <view class="_li data-v-db3a39ea item">R</view>
+        <view class="_li data-v-db3a39ea item">R</view>
+      </view>
+    </view>
+    <view class="_view data-v-db3a39ea">
+      <view class="_view data-v-db3a39ea Addressbook-title"> A </view>
+      <view class="_view data-v-db3a39ea Addressbook-list">
+        <view class="_ul data-v-db3a39ea">
+          <view class="_li data-v-db3a39ea Addressbook-item">
+            <view class="_view data-v-db3a39ea Addressbook-item-img">
+              <image src="../../static/bg.jpg" mode class="_image data-v-db3a39ea"></image>
+            </view>
+            <view class="_view data-v-db3a39ea mglr">阿米灵感</view>
+          </view>
+          <view class="_li data-v-db3a39ea Addressbook-item">
+            <view class="_view data-v-db3a39ea Addressbook-item-img">
+              <image src="../../static/bg.jpg" mode class="_image data-v-db3a39ea"></image>
+            </view>
+            <view class="_view data-v-db3a39ea mglr">阿米灵感</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-db3a39ea Addressbook-title"> B </view>
+      <view class="_view data-v-db3a39ea Addressbook-list">
+        <view class="_ul data-v-db3a39ea">
+          <view class="_li data-v-db3a39ea Addressbook-item">
+            <view class="_view data-v-db3a39ea Addressbook-item-img">
+              <image src="../../static/bg.jpg" mode class="_image data-v-db3a39ea"></image>
+            </view>
+            <view class="_view data-v-db3a39ea mglr">阿米灵感</view>
+          </view>
+          <view class="_li data-v-db3a39ea Addressbook-item">
+            <view class="_view data-v-db3a39ea Addressbook-item-img">
+              <image src="../../static/bg.jpg" mode class="_image data-v-db3a39ea"></image>
+            </view>
+            <view class="_view data-v-db3a39ea mglr">阿米灵感</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-db3a39ea Addressbook-title"> A </view>
+      <view class="_view data-v-db3a39ea Addressbook-list">
+        <view class="_ul data-v-db3a39ea">
+          <view class="_li data-v-db3a39ea Addressbook-item">
+            <view class="_view data-v-db3a39ea Addressbook-item-img">
+              <image src="../../static/bg.jpg" mode class="_image data-v-db3a39ea"></image>
+            </view>
+            <view class="_view data-v-db3a39ea mglr">阿米灵感</view>
+          </view>
+          <view class="_li data-v-db3a39ea Addressbook-item">
+            <view class="_view data-v-db3a39ea Addressbook-item-img">
+              <image src="../../static/bg.jpg" mode class="_image data-v-db3a39ea"></image>
+            </view>
+            <view class="_view data-v-db3a39ea mglr">阿米灵感</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

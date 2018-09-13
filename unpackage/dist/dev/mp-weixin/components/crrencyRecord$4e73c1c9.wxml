@@ -1,0 +1,76 @@
+<template name="crrencyRecord$4e73c1c9">
+  <view class="_view data-v-438602bc">
+    <view class="_div data-v-438602bc header">
+      <view class="_div data-v-438602bc header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image class="_image data-v-438602bc header-back" src="../../static/left.png" mode></image>
+      </view>
+      <view class="_div data-v-438602bc header-content"> 充币记录 </view>
+      <view class="_div data-v-438602bc header-right">
+        <image src="../../static/sousuo.png" mode class="_image data-v-438602bc"></image>
+      </view>
+    </view>
+    <view class="_div data-v-438602bc">
+      <view class="_div data-v-438602bc time">2018年8月16日 17:30:40</view>
+      <view class="_div data-v-438602bc time-info">
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">商户编号</view>
+          <view class="_h3 data-v-438602bc">65700265448</view>
+        </view>
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">金额</view>
+          <view class="_h3 data-v-438602bc">49.90</view>
+        </view>
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">状态</view>
+          <view class="_h3 data-v-438602bc">交易成功</view>
+        </view>
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">操作</view>
+          <view class="_h3 data-v-438602bc greenColor">完成</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-438602bc">
+      <view class="_div data-v-438602bc time">2018年8月16日 17:30:40</view>
+      <view class="_div data-v-438602bc time-info">
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">商户编号</view>
+          <view class="_h3 data-v-438602bc">65700265448</view>
+        </view>
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">金额</view>
+          <view class="_h3 data-v-438602bc">49.90</view>
+        </view>
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">状态</view>
+          <view class="_h3 data-v-438602bc">交易成功</view>
+        </view>
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">操作</view>
+          <view class="_h3 data-v-438602bc greenColor">完成</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-438602bc">
+      <view class="_div data-v-438602bc time">2018年8月16日 17:30:40</view>
+      <view class="_div data-v-438602bc time-info">
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">商户编号</view>
+          <view class="_h3 data-v-438602bc">65700265448</view>
+        </view>
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">金额</view>
+          <view class="_h3 data-v-438602bc">49.90</view>
+        </view>
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">状态</view>
+          <view class="_h3 data-v-438602bc">交易成功</view>
+        </view>
+        <view class="_div data-v-438602bc time-item">
+          <view class="_h1 data-v-438602bc">操作</view>
+          <view class="_h3 data-v-438602bc greenColor">完成</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

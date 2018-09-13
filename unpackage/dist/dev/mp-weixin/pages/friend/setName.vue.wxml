@@ -1,0 +1,17 @@
+<template name="499eae98">
+  <view class="_view data-v-530a8766 page">
+    <view class="_view data-v-530a8766 header">
+      <view class="_view data-v-530a8766 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-530a8766"></image>
+      </view>
+      <view class="_view data-v-530a8766 header-content"> 设置名称 </view>
+      <view class="_view data-v-530a8766 header-right green"> 完成 </view>
+    </view>
+    <view class="_view data-v-530a8766 search-box">
+      <view class="_view data-v-530a8766 search">
+        <image class="_image data-v-530a8766 search-icon" src="../../static/clear2@2x.png" mode></image>
+        <input type="text" placeholder="时尚大咖" value="" class="_input data-v-530a8766" />
+      </view>
+    </view>
+  </view>
+</template>

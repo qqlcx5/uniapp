@@ -1,0 +1,119 @@
+
+.header {
+  height: 88rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #fff;
+  overflow: hidden;
+  margin-bottom: 10rpx;
+  box-shadow: 0 2rpx 4rpx 0 rgba(238, 238, 238, 0.5);
+}
+.header-left {
+  min-width: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.header-left image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.header-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  font-size: 36rpx;
+}
+.header-right image {
+  max-height: 40rpx;
+  max-width: 40rpx;
+}
+.header-right {
+  min-width: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.list-box {
+  margin: 20rpx;
+  padding: 0 40rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  padding-bottom: 20rpx;
+}
+.list-box ._li {
+  padding-top: 20rpx;
+  border-bottom: 1rpx solid #eee;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.list-item-title {
+  font-family: PingFangSC-Medium;
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0;
+  color: #606060;
+}
+.list-box ._li ._span {
+  font-size: 24rpx;
+  color: #585858;
+}
+.list-box ._li image {
+  width: 20rpx;
+  height: 20rpx;
+  margin-top: 50rpx;
+}
+.height-margin {
+  margin-top: 40rpx;
+}
+._footer ._div {
+  margin-left: 23%;
+  width: 54%;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 50rpx;
+  font-size: 30rpx;
+}
+.exit-btn {
+  margin-top: 60rpx;
+  background-color: #e97b78;
+  color: white;
+  text-align: center;
+}
+.switch-account-btn {
+  margin-top: 40rpx;
+  border: 1rpx solid #e4e2e5;
+  text-align: center;
+}

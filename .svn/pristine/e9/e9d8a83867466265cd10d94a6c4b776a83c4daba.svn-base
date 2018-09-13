@@ -1,0 +1,69 @@
+<template name="my_store$989ed66e">
+  <view class="_view data-v-5b49a360">
+    <view class="_view data-v-5b49a360 header">
+      <view class="_view data-v-5b49a360 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-5b49a360"></image>
+      </view>
+      <view class="_view data-v-5b49a360 header-content"> 开店设置 </view>
+      <view class="_view data-v-5b49a360 header-right">
+        <label class="_span data-v-5b49a360">预览</label>
+      </view>
+    </view>
+    <view class="_view data-v-5b49a360 header-bg-img">
+      <image src="../../static/my_13.jpg" class="_image data-v-5b49a360"></image>
+    </view>
+    <view class="_view data-v-5b49a360 body-content">
+      <view class="_view data-v-5b49a360 store">
+        <image src="../../static/my_12.jpg" class="_image data-v-5b49a360"></image>
+        <view class="_p data-v-5b49a360">点击上传店铺图标</view>
+      </view>
+      <view class="_view data-v-5b49a360 store-list">
+        <view class="_ul data-v-5b49a360">
+          <view class="_li data-v-5b49a360">
+            <label class="_span data-v-5b49a360">店铺名称</label>
+            <view class="_view data-v-5b49a360 store-list-right">
+              <label class="_span data-v-5b49a360">时尚大咖</label>
+              <image src="../../static/right_01.png" class="_image data-v-5b49a360"></image>
+            </view>
+          </view>
+          <view class="_li data-v-5b49a360">
+            <label class="_span data-v-5b49a360">微信号</label>
+            <view class="_view data-v-5b49a360 store-list-right">
+              <label class="_span data-v-5b49a360">时尚大咖</label>
+              <image src="../../static/right_01.png" class="_image data-v-5b49a360"></image>
+            </view>
+          </view>
+          <view class="_li data-v-5b49a360">
+            <label class="_span data-v-5b49a360">店铺名称</label>
+            <view class="_view data-v-5b49a360 store-list-right">
+              <label class="_span data-v-5b49a360">厦门</label>
+              <image src="../../static/right_01.png" class="_image data-v-5b49a360"></image>
+            </view>
+          </view>
+          <view class="_li data-v-5b49a360">
+            <label class="_span data-v-5b49a360">货币</label>
+            <view class="_view data-v-5b49a360 store-list-right">
+              <label class="_span data-v-5b49a360">碧波币</label>
+              <image src="../../static/right_01.png" class="_image data-v-5b49a360"></image>
+            </view>
+          </view>
+          <view class="_li data-v-5b49a360">
+            <label class="_span data-v-5b49a360">支付方式</label>
+            <view class="_view data-v-5b49a360 store-list-right">
+              <label class="_span data-v-5b49a360">未设置</label>
+              <image src="../../static/right_01.png" class="_image data-v-5b49a360"></image>
+            </view>
+          </view>
+          <view class="_li data-v-5b49a360">
+            <label class="_span data-v-5b49a360">店铺描述</label>
+            <view class="_view data-v-5b49a360 store-list-right">
+              <label class="_span data-v-5b49a360">已开启</label>
+              <image src="../../static/right_01.png" class="_image data-v-5b49a360"></image>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-5b49a360 open-btn">开店</view>
+    </view>
+  </view>
+</template>

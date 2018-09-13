@@ -1,0 +1,20 @@
+<template name="5437d6b7">
+  <view class="_view data-v-12006bfe">
+    <view class="_view data-v-12006bfe header">
+      <view class="_view data-v-12006bfe header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-12006bfe"></image>
+      </view>
+      <view class="_view data-v-12006bfe header-content"> 二维码 </view>
+      <view class="_view data-v-12006bfe header-right green"></view>
+    </view>
+    <view class="_view data-v-12006bfe content">
+      <view class="_view data-v-12006bfe box">
+        <view class="_view data-v-12006bfe qrcode">
+          <image src="../../static/qrcode.jpg" mode class="_image data-v-12006bfe"></image>
+        </view>
+        <view class="_p data-v-12006bfe desc"> 长按二维码，关注碧波币官方微信 </view>
+        <view class="_view data-v-12006bfe btn"> 保存图片 </view>
+      </view>
+    </view>
+  </view>
+</template>

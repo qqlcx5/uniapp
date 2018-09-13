@@ -1,0 +1,125 @@
+
+.header {
+  height: 100rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 4rpx 8rpx 0 rgba(238, 238, 238, 0.5);
+}
+.header-left,
+.header-right {
+  width: 100rpx;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.header image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.header-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+.box {
+  width: 90%;
+  height: 300rpx;
+  margin: 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.box ._h3 {
+  font-size: 32rpx;
+  color: #6c6c6c;
+}
+.box ._textarea {
+  margin-top: 30rpx;
+  width: 100%;
+  min-height: 40rpx;
+  background: #fff;
+}
+.box2 {
+  width: 90%;
+  height: 500rpx;
+  margin: 0 5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.box2-btn {
+  width: 60%;
+  height: 70rpx;
+  background-color: #8cafea;
+  border-radius: 36rpx;
+  color: #FFFFFF;
+  line-height: 70rpx;
+  text-align: center;
+  margin: 0 auto;
+}
+.box2-image {
+  margin-top: 40rpx;
+  width: 300rpx;
+  height: 300rpx;
+  background: #fff;
+}
+.address {
+  width: 100%;
+  height: 90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.address ._input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  height: 90rpx;
+  padding-left: 60rpx;
+  font-size: 28rpx;
+  color: #d0d0d0;
+}
+.place {
+  font-size: 28rpx;
+  color: #d0d0d0;
+}
+.btn {
+  width: 50%;
+  height: 70rpx;
+  background-color: #e97b78;
+  border-radius: 36rpx;
+  color: #FFFFFF;
+  line-height: 70rpx;
+  text-align: center;
+  margin: 5% auto 0;
+}

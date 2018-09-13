@@ -1,0 +1,317 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/mall/mallMessage",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/mall/malldetaill",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/mall/paysuccess",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/mall/shopcar",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/mall/zhuanhuanchenggong",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+			"path": "pages/wealth/wealth",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/newtibijilu",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/bizhongzhuanhuan",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/newchongbijilu",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/crrencyRecord",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/kongjieshoudizhi",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/duihuanjilu",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/renwuzhengbi",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/renwuzhengbi_2",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/wealthDetail",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/exchange",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/tickRecord",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/tibi",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/chongbi",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/jieshoudizhi",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/jieshoubizhong",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/wealth/dingdanxiangqing",
+			"style": {
+				"navigationBarTitleText": "财富"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},{
+			"path": "pages/chat/chatdialog",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/chat/infodetail",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/friend/dialog",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/friend",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/infodetail",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/yanzhenxiaoxi",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/suosouFriend",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		
+		{
+			"path": "pages/friend/addFriend",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/nearbyFriend",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/newFriend",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/qrcode",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/setName",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/tel",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/friend/changeinfo",
+			"style": {
+				"navigationBarTitleText": "朋友"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		},
+		{
+			"path": "pages/my/my_rect",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/my/my_store",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/my/my_addres",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/my/my_shop",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/my/my_sys",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/my/my_num",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}, {
+			"path": "pages/my/my_pay",
+			"style": {
+				"navigationBarTitleText": "我"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "演示",
+		"navigationBarBackgroundColor": "#000000",
+		"navigationStyle": "custom",
+		"backgroundColor": "#000000"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/mall/mall",
+				"iconPath": "static/mall.png",
+				"selectedIconPath": "static/mallselect.png",
+				"text": "商城"
+			}, {
+				"pagePath": "pages/wealth/wealth",
+				"iconPath": "static/wealth.png",
+				"selectedIconPath": "static/wealthselect.png",
+				"text": "财富"
+			}, {
+				"pagePath": "pages/chat/chat",
+				"iconPath": "static/chat.png",
+				"selectedIconPath": "static/chatselect.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/friend/friend",
+				"iconPath": "static/friend.png",
+				"selectedIconPath": "static/friendSelect.png",
+				"text": "朋友"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/myselect.png",
+				"text": "我"
+			}
+		]
+	}
+}

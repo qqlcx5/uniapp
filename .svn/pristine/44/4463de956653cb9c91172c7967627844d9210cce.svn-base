@@ -1,0 +1,53 @@
+<template name="tickRecord$3fd94628">
+  <view class="_view data-v-1137dfef">
+    <view class="_div data-v-1137dfef header">
+      <view class="_div data-v-1137dfef header-left">
+        <image src="../../static/left.png" mode class="_image data-v-1137dfef"></image>
+      </view>
+      <view class="_div data-v-1137dfef header-content"> 提币记录 </view>
+      <view class="_div data-v-1137dfef header-right">
+        <image src="../../static/sousuo.png" mode class="_image data-v-1137dfef"></image>
+      </view>
+    </view>
+    <view class="_div data-v-1137dfef info-list">
+      <view class="_div data-v-1137dfef time">
+        <view class="_div data-v-1137dfef"> 碧波币(23984) </view>
+        <view class="_div data-v-1137dfef"> 2018年8月14日 17:30:40 </view>
+      </view>
+      <view class="_div data-v-1137dfef time-info">
+        <view class="_div data-v-1137dfef time-item">
+          <view class="_h1 data-v-1137dfef">5.326 CNY</view>
+          <view class="_h3 data-v-1137dfef">提币价格</view>
+        </view>
+        <view class="_div data-v-1137dfef time-item">
+          <view class="_h1 data-v-1137dfef">1000</view>
+          <view class="_h3 data-v-1137dfef">提币数量</view>
+        </view>
+        <view class="_div data-v-1137dfef time-item">
+          <view class="_h1 data-v-1137dfef">5326 CNY</view>
+          <view class="_h3 data-v-1137dfef">提币总额</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-1137dfef info-list">
+      <view class="_div data-v-1137dfef time">
+        <view class="_div data-v-1137dfef"> 夸克币(23984) </view>
+        <view class="_div data-v-1137dfef"> 2018年8月14日 17:30:40 </view>
+      </view>
+      <view class="_div data-v-1137dfef time-info">
+        <view class="_div data-v-1137dfef time-item">
+          <view class="_h1 data-v-1137dfef">5.326 CNY</view>
+          <view class="_h3 data-v-1137dfef">提币价格</view>
+        </view>
+        <view class="_div data-v-1137dfef time-item">
+          <view class="_h1 data-v-1137dfef">1000</view>
+          <view class="_h3 data-v-1137dfef">提币数量</view>
+        </view>
+        <view class="_div data-v-1137dfef time-item">
+          <view class="_h1 data-v-1137dfef">5326 CNY</view>
+          <view class="_h3 data-v-1137dfef">提币总额</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

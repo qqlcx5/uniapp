@@ -1,0 +1,51 @@
+<template name="4f55e507">
+  <view class="_view data-v-fb902064">
+    <view class="_view data-v-fb902064 header">
+      <image src="../../static/mybg.png" mode class="_image data-v-fb902064"></image>
+      <view class="_view data-v-fb902064 headermask"></view>
+      <view class="_view data-v-fb902064 user-info">
+        <image class="_image data-v-fb902064 face" src="../../static/bg.jpg"></image>
+        <view class="_p data-v-fb902064 user-nick">克里斯</view>
+        <view class="_p data-v-fb902064 username">账号:kls123123123</view>
+      </view>
+    </view>
+    <view class="_view data-v-fb902064 body-content">
+      <view class="_p data-v-fb902064 title">碧波服务</view>
+      <view class="_view data-v-fb902064 server-table">
+        <view class="_ul data-v-fb902064">
+          <view bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_li data-v-fb902064">
+            <image class="_image data-v-fb902064 table-icon" src="../../static/my_02.png"></image>
+            <view class="_p data-v-fb902064 table-text bordl">交易记录</view>
+          </view>
+          <view bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_li data-v-fb902064">
+            <image class="_image data-v-fb902064 table-icon" src="../../static/my_01.png"></image>
+            <view class="_p data-v-fb902064 table-text ">开店设置</view>
+          </view>
+          <view bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_li data-v-fb902064">
+            <image class="_image data-v-fb902064 table-icon" src="../../static/my_04.png"></image>
+            <view class="_p data-v-fb902064 table-text bordr">联系客服</view>
+          </view>
+          <view bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_li data-v-fb902064">
+            <image class="_image data-v-fb902064 table-icon" src="../../static/my_05.png"></image>
+            <view class="_p data-v-fb902064 table-text bordl">地址薄</view>
+          </view>
+          <view bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_li data-v-fb902064">
+            <image class="_image data-v-fb902064 table-icon" src="../../static/my_06.png"></image>
+            <view class="_p data-v-fb902064 table-text">我的店铺</view>
+          </view>
+          <view bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}" class="_li data-v-fb902064">
+            <image class="_image data-v-fb902064 table-icon" src="../../static/my_07.png"></image>
+            <view class="_p data-v-fb902064 table-text bordr">系统设置</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-fb902064 mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-fb902064 popup popup-middle" hidden="{{!(showState.middle)}}">
+      <view class="_view data-v-fb902064 desc">
+        <view class="_p data-v-fb902064">手机号码:0592-6397953</view>
+        <view class="_p data-v-fb902064">微信:Bbobi688922</view>
+      </view>
+    </view>
+  </view>
+</template>

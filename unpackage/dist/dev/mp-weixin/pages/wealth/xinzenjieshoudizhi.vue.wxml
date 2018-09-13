@@ -1,0 +1,26 @@
+<template name="1dc22f96">
+  <view class="_view data-v-a7f26a08">
+    <view class="_view data-v-a7f26a08 header">
+      <view class="_view data-v-a7f26a08 header-left">
+        <image src="../../static/left.png" mode class="_image data-v-a7f26a08"></image>
+      </view>
+      <view class="_view data-v-a7f26a08 header-content"> 新增接收地址 </view>
+      <view class="_view data-v-a7f26a08 header-right"></view>
+    </view>
+    <view class="_view data-v-a7f26a08 content">
+      <view class="_view data-v-a7f26a08 box">
+        <view class="_h3 data-v-a7f26a08">添加二维码</view>
+        <textarea class="_textarea data-v-a7f26a08" />
+      </view>
+      <view class="_view data-v-a7f26a08 box2">
+        <view class="_view data-v-a7f26a08 box2-btn"> 生成二维码 </view>
+        <view class="_view data-v-a7f26a08 box2-image"></view>
+      </view>
+      <view class="_view data-v-a7f26a08 address">
+        <label class="_span data-v-a7f26a08">添加地址</label>
+        <input type="text" placeholder-class="place" placeholder="请输入接收地址" value="" class="_input data-v-a7f26a08" />
+      </view>
+      <view class="_view data-v-a7f26a08 btn"> 保存并使用 </view>
+    </view>
+  </view>
+</template>

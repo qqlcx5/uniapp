@@ -1,0 +1,43 @@
+<template name="exchange$55d76c06">
+  <view class="_view data-v-430ca984 page">
+    <view class="_view data-v-430ca984 header">
+      <view class="_view data-v-430ca984 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left_2.png" mode class="_image data-v-430ca984"></image>
+      </view>
+      <view class="_view data-v-430ca984 header-content"> 币种兑换 </view>
+      <view class="_view data-v-430ca984 header-right"></view>
+    </view>
+    <view class="_view data-v-430ca984 list">
+      <view class="_view data-v-430ca984 item">
+        <view class="_view data-v-430ca984 item-image">
+          <image src="../../static/logo_2.png" mode class="_image data-v-430ca984"></image>
+        </view>
+        <view class="_view data-v-430ca984 item-title"> CNY </view>
+        <view class="_view data-v-430ca984 item-right">
+          <view class="_p data-v-430ca984 item-num">10000</view>
+          <view class="_p data-v-430ca984 item-desc">碧波币</view>
+        </view>
+      </view>
+      <view class="_view data-v-430ca984 item">
+        <view class="_view data-v-430ca984 item-image">
+          <image src="../../static/logo_2.png" mode class="_image data-v-430ca984"></image>
+        </view>
+        <view class="_view data-v-430ca984 item-title"> CNY </view>
+        <view class="_view data-v-430ca984 item-right">
+          <view class="_p data-v-430ca984 item-num">10000</view>
+          <view class="_p data-v-430ca984 item-desc">碧波币</view>
+        </view>
+      </view>
+      <view class="_view data-v-430ca984 item">
+        <view class="_view data-v-430ca984 item-image">
+          <image src="../../static/logo_2.png" class="_image data-v-430ca984"></image>
+        </view>
+        <view class="_view data-v-430ca984 item-title"> CNY </view>
+        <view class="_view data-v-430ca984 item-right">
+          <view class="_p data-v-430ca984 item-num">10000</view>
+          <view class="_p data-v-430ca984 item-desc">碧波币</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

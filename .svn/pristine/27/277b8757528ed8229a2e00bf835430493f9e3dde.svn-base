@@ -1,0 +1,59 @@
+<template name="52c1368c">
+  <view class="_view data-v-87c0d65a">
+    <view class="_div data-v-87c0d65a header">
+      <view class="_div data-v-87c0d65a header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image class="_image data-v-87c0d65a header-back" src="../../static/left.png" mode></image>
+      </view>
+      <view class="_div data-v-87c0d65a header-content"> 充币记录 </view>
+      <view class="_div data-v-87c0d65a header-right">
+        <image src="../../static/sousuo.png" mode class="_image data-v-87c0d65a"></image>
+      </view>
+    </view>
+    <view class="_div data-v-87c0d65a">
+      <view class="_div data-v-87c0d65a time">2018年8月16日 17:30:40</view>
+      <view class="_div data-v-87c0d65a time-info">
+        <view class="_div data-v-87c0d65a time-item">
+          <view class="_h1 data-v-87c0d65a">币种</view>
+          <view class="_h3 data-v-87c0d65a">碧波币</view>
+        </view>
+        <view class="_div data-v-87c0d65a time-item">
+          <view class="_h1 data-v-87c0d65a">地址</view>
+          <view class="_h3 data-v-87c0d65a">6570026544812544896Sdd</view>
+        </view>
+        <view class="_div data-v-87c0d65a time-item">
+          <view class="_h1 data-v-87c0d65a">二维码</view>
+          <view class="_h3 data-v-87c0d65a">
+            <image src="../../static/qrcode.jpg" mode class="_image data-v-87c0d65a"></image>
+          </view>
+        </view>
+        <view class="_div data-v-87c0d65a time-item">
+          <view class="_h1 data-v-87c0d65a">数量</view>
+          <view class="_h3 data-v-87c0d65a">40BBB</view>
+        </view>
+      </view>
+    </view>
+    <view class="_div data-v-87c0d65a">
+      <view class="_div data-v-87c0d65a time">2018年8月16日 17:30:40</view>
+      <view class="_div data-v-87c0d65a time-info">
+        <view class="_div data-v-87c0d65a time-item">
+          <view class="_h1 data-v-87c0d65a">币种</view>
+          <view class="_h3 data-v-87c0d65a">碧波币</view>
+        </view>
+        <view class="_div data-v-87c0d65a time-item">
+          <view class="_h1 data-v-87c0d65a">地址</view>
+          <view class="_h3 data-v-87c0d65a">6570026544812544896Sdd</view>
+        </view>
+        <view class="_div data-v-87c0d65a time-item">
+          <view class="_h1 data-v-87c0d65a">二维码</view>
+          <view class="_h3 data-v-87c0d65a">
+            <image src="../../static/qrcode.jpg" mode class="_image data-v-87c0d65a"></image>
+          </view>
+        </view>
+        <view class="_div data-v-87c0d65a time-item">
+          <view class="_h1 data-v-87c0d65a">数量</view>
+          <view class="_h3 data-v-87c0d65a">40BBB</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

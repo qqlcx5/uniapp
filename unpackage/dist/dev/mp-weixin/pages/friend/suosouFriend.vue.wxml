@@ -1,0 +1,30 @@
+<template name="dc8f8b5a">
+  <view class="_view data-v-f451034c">
+    <view class="_view data-v-f451034c header-fix">
+      <view class="_view data-v-f451034c header">
+        <view class="_view data-v-f451034c header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+          <image src="../../static/left.png" mode class="_image data-v-f451034c"></image>
+        </view>
+        <view class="_view data-v-f451034c header-content"> 添加好友 </view>
+        <view class="_view data-v-f451034c header-right"></view>
+      </view>
+    </view>
+    <view class="_view data-v-f451034c search-box">
+      <view class="_view data-v-f451034c search">
+        <image class="_image data-v-f451034c search-icon" src="../../static/sousuo.png"></image>
+        <input type="text" placeholder="碧波账号／手机号" value="" class="_input data-v-f451034c" />
+        <image class="_image data-v-f451034c search-clear" src="../../static/shanchu.png"></image>
+      </view>
+    </view>
+    <view class="_view data-v-f451034c list">
+      <view class="_view data-v-f451034c">
+        <image class="_image data-v-f451034c item-suosou" src="../../static/suosou_3.png" mode></image>
+      </view>
+      <view class="_view data-v-f451034c info">
+        <view class="_p data-v-f451034c info-title">克里斯 (12341265)</view>
+        <view class="_p data-v-f451034c info-desc">男 25岁 厦门</view>
+      </view>
+      <view class="_view data-v-f451034c btn"> 添加好友 </view>
+    </view>
+  </view>
+</template>

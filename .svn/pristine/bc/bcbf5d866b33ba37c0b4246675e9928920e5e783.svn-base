@@ -1,0 +1,1 @@
+<import src="/pages/wealth/wealth.vue.wxml" /><template is="2e6706e7" data="{{ ...$root['0'], $root }}"/>

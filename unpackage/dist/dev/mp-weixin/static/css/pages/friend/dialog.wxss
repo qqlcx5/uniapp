@@ -1,0 +1,118 @@
+
+.header {
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #BEBEBE;
+}
+.header-left,
+.header-right {
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.header-content {
+  flex: 1;
+  text-align: center;
+}
+.dialogTime {
+  width: 100%;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  color: #b6b6b6;
+  text-align: center;
+  margin: 40rpx 0;
+}
+.you {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 140rpx;
+  margin: 40rpx 0;
+}
+.you-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140rpx;
+  height: 140rpx;
+}
+.dialog image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.you-box {
+  min-width: 40rpx;
+  max-width: 50%;
+  min-height: 60rpx;
+  padding: 15rpx;
+  font-size: 32rpx;
+  box-sizing: border-box;
+  word-break: break-word;
+  background: #FFFFFF;
+  border-radius: 10rpx;
+}
+.my {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  min-height: 140rpx;
+  margin: 40rpx 0;
+}
+.my-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140rpx;
+  height: 140rpx;
+}
+.my-box {
+  min-width: 40rpx;
+  max-width: 50%;
+  min-height: 60rpx;
+  padding: 15rpx;
+  font-size: 32rpx;
+  box-sizing: border-box;
+  word-break: break-word;
+  background-color: #79c343;
+  border-radius: 10rpx;
+  color: #ffffff;
+}
+.send-message {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100rpx;
+  background: #eee;
+  display: flex;
+  align-items: center;
+}
+.send-message image {
+  height: 80rpx;
+  width: 80rpx;
+}
+.send-message ._input {
+  margin: 0;
+  flex: 1;
+  height: 80rpx;
+  background-color: #ffffff;
+  border-radius: 12rpx;
+}
+.mgl {
+  margin-left: 20rpx;
+}
+.mgr {
+  margin-right: 20rpx;
+}

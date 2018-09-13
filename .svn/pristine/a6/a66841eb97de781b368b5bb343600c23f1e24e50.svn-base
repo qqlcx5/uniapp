@@ -1,0 +1,237 @@
+
+page {
+  background: #FFFFFF;
+}
+.header {
+  height: 440rpx;
+  width: 100%;
+}
+.headerfix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.search-color {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  overflow-x: hidden;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  background: #8cafea;
+  height: 70rpx;
+}
+.search-img {
+  width: 40rpx;
+  height: 40rpx;
+  padding: 15rpx 30rpx;
+}
+.search-left {
+  width: 100rpx;
+  height: 100rpx;
+}
+.search {
+  width: 530rpx;
+  height: 40rpx;
+  margin: 15rpx 10rpx;
+  text-align: center;
+  line-height: 40rpx;
+  color: #FFFFFF;
+}
+.search-right {
+  width: 100rpx;
+  height: 100rpx;
+}
+.persion,
+.persion-coin,
+.persion-manage,
+.list,
+.wealth-bottom {
+  width: 100%;
+}
+.persion {
+  height: 370rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background: #8cafea;
+}
+.persion-coin {
+  height: 100rpx;
+  text-align: center;
+  display: block;
+  line-height: 100rpx;
+  color: #FFFFFF;
+}
+.persion-manage {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  height: 170rpx;
+}
+.persion-manage-sub {
+  width: 33.33%;
+  font-size: 25rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  color: #FFFFFF;
+  margin: 28rpx 0;
+}
+.persion-manage-img {
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 20rpx;
+}
+.text {
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+}
+.renwu {
+  height: 280rpx;
+  width: 100%;
+  background: #f7f7f7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.renwu-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 44rpx;
+  width: 100%;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.renwu-i {
+  display: block;
+  width: 12rpx;
+  height: 36rpx;
+  margin: 0 20rpx;
+  background-color: #8cafea;
+}
+.renwu-content {
+  height: 180rpx;
+  width: 100%;
+  padding: 0 5%;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.renwu-item {
+  width: 50%;
+  height: 140rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background-color: #8cafea;
+  border-radius: 16rpx;
+  font-size: 28rpx;
+  color: #ffffff;
+}
+.renwu_image {
+  width: 50rpx;
+  height: 60rpx;
+  margin-bottom: 10rpx;
+}
+.renwu_image2 {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 10rpx;
+}
+.mgr {
+  margin-right: 5%;
+}
+.mgl {
+  margin-left: 5%;
+}
+.list {
+  border-bottom: 2rpx solid #f2f2f2;
+  height: 145rpx;
+}
+.list-sub {
+  width: 700rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin: 0 25rpx;
+}
+.list-left {
+  width: 62rpx;
+  height: 62rpx;
+  margin-top: 40rpx;
+}
+.list-center {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  margin-left: 35rpx;
+  margin-top: 35rpx;
+}
+.list-right {
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 58rpx;
+}
+.list-title,
+.list-des {
+  height: 30rpx;
+  line-height: 30rpx;
+  color: #6a6a6a;
+}
+.list-title {
+  font-weight: bold;
+}
+.list-des {
+  margin-top: 10rpx;
+}

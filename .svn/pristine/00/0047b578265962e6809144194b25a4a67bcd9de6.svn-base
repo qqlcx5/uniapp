@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>扫码</title>
+    <style>
+        html,
+        body,
+        .container {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="scan" class="container">
+    </div>
+    <script>
+        var back = function () {
+            var webview = plus.webview.currentWebview()
+            if (webview.__uniapp_dark) {
+                plus.navigator.setStatusBarStyle('dark')
+            }
+            webview.close('auto');
+        }
+        document.addEventListener('plusready', function () {
+            var serviceWebview = plus.webview.getWebviewById('__W2A_CONTEXT_') || plus.webview.getLaunchWebview();
+            plus.key.addEventListener('backbutton', back);
+            setTimeout(function () {
+                var webview = plus.webview.currentWebview();
+                var scan = new plus.barcode.Barcode('scan', webview.__uniapp_scan_type);
+                scan.onmarked = function (type, code, file) {
+                    var res = {
+                        type: type,
+                        code: code
+                    };
+                    back()
+                    serviceWebview.evalJS('window.__scanCodeCallback__&&__scanCodeCallback__(' +
+                        JSON.stringify(res) + ')');
+                };
+                scan.onerror = function (error) {
+                    back()
+                    serviceWebview.evalJS(
+                        'window.__scanCodeCallback__&&__scanCodeCallback__(false)');
+                };
+
+                scan.start();
+            }, 500)
+        })
+    </script>
+</body>
+
+</html>

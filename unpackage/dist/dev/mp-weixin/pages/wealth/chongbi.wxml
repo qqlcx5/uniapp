@@ -1,0 +1,1 @@
+<import src="/pages/wealth/chongbi.vue.wxml" /><template is="0e293e20" data="{{ ...$root['0'], $root }}"/>

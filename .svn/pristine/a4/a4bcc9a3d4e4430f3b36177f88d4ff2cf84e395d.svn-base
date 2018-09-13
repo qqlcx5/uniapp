@@ -1,0 +1,148 @@
+<template name="chat$43970f66">
+  <view class="_view data-v-c6e931e6">
+    <view class="_view data-v-c6e931e6 header">
+      <view class="_view data-v-c6e931e6 header-left"></view>
+      <view class="_view data-v-c6e931e6 header-content">
+        <view class="_view data-v-c6e931e6 header-content-item">
+          <view class="_view data-v-c6e931e6 header-content-item-title selected">聊天</view>
+          <navigator url="chatFriend" class="_navigator data-v-c6e931e6">
+            <view class="_view data-v-c6e931e6 header-content-item-title">朋友</view>
+          </navigator>
+        </view>
+      </view>
+      <view class="_view data-v-c6e931e6 header-right">
+        <image class="_image data-v-c6e931e6 header-right-img mglr" src="../../static/add.png"></image>
+      </view>
+    </view>
+    <view class="_view data-v-c6e931e6 chat-info">
+      <view class="_view data-v-c6e931e6 chat-item">
+        <view class="_view data-v-c6e931e6 chat-img">
+          <image src="../../static/myselect.png" mode class="_image data-v-c6e931e6"></image>
+        </view>
+        <view class="_view data-v-c6e931e6 chat-title">
+          <view class="_view data-v-c6e931e6 chat-top">
+            <view class="_view data-v-c6e931e6 chat-top-info"> 系统通知 </view>
+            <view class="_i data-v-c6e931e6 info-point"></view>
+            <view class="_view data-v-c6e931e6 chat-top-time">12分钟前</view>
+          </view>
+          <view class="_view data-v-c6e931e6 chat-bottom">
+            <view class="_view data-v-c6e931e6 chat-bottom-info">作业交了吗？我六点要收的，超过时间大大...</view>
+            <view class="_view data-v-c6e931e6 red-point">99</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-c6e931e6 chat-item">
+        <view class="_view data-v-c6e931e6 chat-img">
+          <image src="../../static/myselect.png" mode class="_image data-v-c6e931e6"></image>
+        </view>
+        <view class="_view data-v-c6e931e6 chat-title">
+          <view class="_view data-v-c6e931e6 chat-top">
+            <view class="_view data-v-c6e931e6 chat-top-info"> 系统通知 </view>
+            <view class="_i data-v-c6e931e6 info-point"></view>
+            <view class="_view data-v-c6e931e6 chat-top-time">12分钟前</view>
+          </view>
+          <view class="_view data-v-c6e931e6 chat-bottom">
+            <view class="_view data-v-c6e931e6 chat-bottom-info">作业交了吗？555555555555我六点要收的，超过时间大大...</view>
+            <view class="_view data-v-c6e931e6 red-point">99</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-c6e931e6 chat-item">
+        <view class="_view data-v-c6e931e6 chat-img">
+          <image src="../../static/myselect.png" mode class="_image data-v-c6e931e6"></image>
+        </view>
+        <view class="_view data-v-c6e931e6 chat-title">
+          <view class="_view data-v-c6e931e6 chat-top">
+            <view class="_view data-v-c6e931e6 chat-top-info"> 系统通知 </view>
+            <view class="_i data-v-c6e931e6 info-point"></view>
+            <view class="_view data-v-c6e931e6 chat-top-time">12分钟前</view>
+          </view>
+          <view class="_view data-v-c6e931e6 chat-bottom">
+            <view class="_view data-v-c6e931e6 chat-bottom-info">作业交了吗？我六点要收的，超过时间大大...</view>
+            <view class="_view data-v-c6e931e6 red-point">99</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-c6e931e6 chat-item">
+        <view class="_view data-v-c6e931e6 chat-img">
+          <image src="../../static/myselect.png" mode class="_image data-v-c6e931e6"></image>
+        </view>
+        <view class="_view data-v-c6e931e6 chat-title">
+          <view class="_view data-v-c6e931e6 chat-top">
+            <view class="_view data-v-c6e931e6 chat-top-info"> 系统通知 </view>
+            <view class="_i data-v-c6e931e6 info-point"></view>
+            <view class="_view data-v-c6e931e6 chat-top-time">12分钟前</view>
+          </view>
+          <view class="_view data-v-c6e931e6 chat-bottom">
+            <view class="_view data-v-c6e931e6 chat-bottom-info">作业交了吗？我六点要收的，超过时间大大...</view>
+            <view class="_view data-v-c6e931e6 red-point">99</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-c6e931e6 chat-item">
+        <view class="_view data-v-c6e931e6 chat-img">
+          <image src="../../static/myselect.png" mode class="_image data-v-c6e931e6"></image>
+        </view>
+        <view class="_view data-v-c6e931e6 chat-title">
+          <view class="_view data-v-c6e931e6 chat-top">
+            <view class="_view data-v-c6e931e6 chat-top-info"> 系统通知 </view>
+            <view class="_i data-v-c6e931e6 info-point"></view>
+            <view class="_view data-v-c6e931e6 chat-top-time">12分钟前</view>
+          </view>
+          <view class="_view data-v-c6e931e6 chat-bottom">
+            <view class="_view data-v-c6e931e6 chat-bottom-info">作业交了吗？我六点要收的，超过时间大大...</view>
+            <view class="_view data-v-c6e931e6 red-point">99</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-c6e931e6 chat-item">
+        <view class="_view data-v-c6e931e6 chat-img">
+          <image src="../../static/myselect.png" mode class="_image data-v-c6e931e6"></image>
+        </view>
+        <view class="_view data-v-c6e931e6 chat-title">
+          <view class="_view data-v-c6e931e6 chat-top">
+            <view class="_view data-v-c6e931e6 chat-top-info"> 系统通知 </view>
+            <view class="_i data-v-c6e931e6 info-point"></view>
+            <view class="_view data-v-c6e931e6 chat-top-time">12分钟前</view>
+          </view>
+          <view class="_view data-v-c6e931e6 chat-bottom">
+            <view class="_view data-v-c6e931e6 chat-bottom-info">作业交了吗？我六点要收的，超过时间大大...</view>
+            <view class="_view data-v-c6e931e6 red-point">99</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-c6e931e6 chat-item">
+        <view class="_view data-v-c6e931e6 chat-img">
+          <image src="../../static/myselect.png" mode class="_image data-v-c6e931e6"></image>
+        </view>
+        <view class="_view data-v-c6e931e6 chat-title">
+          <view class="_view data-v-c6e931e6 chat-top">
+            <view class="_view data-v-c6e931e6 chat-top-info"> 系统通知 </view>
+            <view class="_i data-v-c6e931e6 info-point"></view>
+            <view class="_view data-v-c6e931e6 chat-top-time">12分钟前</view>
+          </view>
+          <view class="_view data-v-c6e931e6 chat-bottom">
+            <view class="_view data-v-c6e931e6 chat-bottom-info">作业交了吗？我六点要收的，超过时间大大...</view>
+            <view class="_view data-v-c6e931e6 red-point">99</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-c6e931e6 chat-item">
+        <view class="_view data-v-c6e931e6 chat-img">
+          <image src="../../static/myselect.png" mode class="_image data-v-c6e931e6"></image>
+        </view>
+        <view class="_view data-v-c6e931e6 chat-title">
+          <view class="_view data-v-c6e931e6 chat-top">
+            <view class="_view data-v-c6e931e6 chat-top-info"> 系统通知 </view>
+            <view class="_i data-v-c6e931e6 info-point"></view>
+            <view class="_view data-v-c6e931e6 chat-top-time">12分钟前</view>
+          </view>
+          <view class="_view data-v-c6e931e6 chat-bottom">
+            <view class="_view data-v-c6e931e6 chat-bottom-info">作业交了吗？我六点要收的，超过时间大大...</view>
+            <view class="_view data-v-c6e931e6 red-point">99</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

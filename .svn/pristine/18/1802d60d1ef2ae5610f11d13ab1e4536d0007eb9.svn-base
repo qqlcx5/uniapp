@@ -1,0 +1,15 @@
+<template name="wealthDetail$107577b8"><view class="_view data-v-0494bbbf"><view class="_view data-v-0494bbbf header"><view class="_view data-v-0494bbbf header-left"><image src="../../static/left.png" mode class="_image data-v-0494bbbf"></image></view> <view class="_view data-v-0494bbbf header-content">
+			碧波币
+		</view> <view class="_view data-v-0494bbbf header-right"><image src="../../static/sousuo.png" mode class="_image data-v-0494bbbf"></image></view></view> <view class="_view data-v-0494bbbf header_title"><view class="_p data-v-0494bbbf header-title">100BBB</view> <view class="_p data-v-0494bbbf header-desc">行情价：0.00092 CNY/BBB</view> <image src="../../static/bbsjbg.png" class="_image data-v-0494bbbf"></image></view> <view class="_view data-v-0494bbbf main"><view class="_view data-v-0494bbbf main_info"><view class="_view data-v-0494bbbf main_info_title"><view class="_i data-v-0494bbbf"></view>碧波币介绍
+			</view> <view class="_view data-v-0494bbbf main-image"><image src="../../static/logo_2.png" class="_image data-v-0494bbbf"></image> <view class="_p data-v-0494bbbf">碧波币（Bibobi）是一种P2P形式的数字货币。</view></view></view> <view class="_view data-v-0494bbbf main-site"><view class="_view data-v-0494bbbf main_info_title"><view class="_i data-v-0494bbbf"></view>碧波币地址簿
+			</view> <view class="_view data-v-0494bbbf address"><view class="_view data-v-0494bbbf site-item"><image class="_image data-v-0494bbbf site-item-image" src="../../static/qiangdao.png"></image> <view class="_view data-v-0494bbbf site-item-content">
+						您的碧波币地址
+					</view> <image class="_image data-v-0494bbbf site-item-right" src="../../static/right.png" mode></image></view> <view class="_view data-v-0494bbbf site-item"><image class="_image data-v-0494bbbf site-item-image" src="../../static/qiangdao.png"></image> <view class="_view data-v-0494bbbf site-item-content">
+						发送的地址
+					</view> <image class="_image data-v-0494bbbf site-item-right" src="../../static/right.png" mode></image></view></view></view> <view class="_view data-v-0494bbbf main-btn"><view class="_view data-v-0494bbbf btn-item mgr">
+				充币
+			</view> <view class="_view data-v-0494bbbf btn-item mgr mgl">
+				提取
+			</view> <view class="_view data-v-0494bbbf btn-item mgl" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+				兑换
+			</view></view></view></view></template>

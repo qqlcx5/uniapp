@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title></title>
+    <style>
+        html,
+        body,
+        .container {
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <iframe id="map" seamless sandbox="allow-scripts allow-same-origin allow-forms" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+    <script>
+        var loc;
+        var serviceWebview;
+        var back = function () {
+            var webview = plus.webview.currentWebview()
+            if (webview.__uniapp_dark) {
+                plus.navigator.setStatusBarStyle('dark')
+            }
+            webview.close('auto');
+        };
+        window.__chooseLocationConfirm__ = function () {
+            if (!loc) {
+                plus.nativeUI.alert('您尚未选择位置!');
+                return;
+            }
+            serviceWebview.evalJS('window.__chooseLocationCallback__&&__chooseLocationCallback__(' + JSON.stringify(
+                loc) + ')');
+            back();
+        }
+        document.addEventListener('plusready', function () {
+            serviceWebview = plus.webview.getWebviewById('__W2A_CONTEXT_') || plus.webview.getLaunchWebview();
+            plus.key.addEventListener('backbutton', back);
+        })
+
+        var mapElem = document.getElementById('map');
+        var defaultReferer = 'wxdevtools';
+        var defaultKey = 'JMRBZ-R4HCD-X674O-PXLN4-B7CLH-42BSB';
+        window.__openLocation__ = function (params) {
+            var key = params.key || defaultKey;
+            var referer = params.referer = defaultReferer;
+            var latitude = params.latitude;
+            var longitude = params.longitude;
+            var scale = params.scale;
+            var name = params.name;
+            var address = params.address;
+            var marker = 'coord:' + latitude + ',' + longitude;
+            if (name) {
+                marker += ';title:' + encodeURIComponent(name);
+            }
+            if (address) {
+                marker += ';addr:' + encodeURIComponent(address);
+            }
+            var url = 'http://apis.map.qq.com/tools/poimarker?type=0&marker=' + marker + '&key=' + defaultKey +
+                '&referer=' + referer;
+            mapElem.src = url;
+        };
+        window.__chooseLocation__ = function (params) {
+            var params = params || {};
+            var key = params.key || defaultKey;
+            var referer = params.referer = defaultReferer;
+            var coord = params.coord || {};
+            var lat = coord.lat;
+            var lng = coord.lng;
+            var coordtype = coord.type || 5;
+            var url = 'http://apis.map.qq.com/tools/locpicker?type=1&search=1&coord=' + (lat && lng ? (lat + ',' +
+                lng) : '') + '&coordtype=' + coordtype + '&key=' + defaultKey + '&referer=' + referer;
+            mapElem.src = url;
+        };
+        window.addEventListener('message', function (event) {
+            var _loc = event.data;
+            if (_loc && _loc.module == 'locationPicker') {
+                loc = _loc;
+            }
+        }, false);
+    </script>
+</body>
+
+</html>

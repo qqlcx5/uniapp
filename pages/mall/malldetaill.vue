@@ -1,0 +1,220 @@
+<template>
+	<view class="page">
+		<view class="header">
+			<image src="../../static/left_2.png" mode="" @click="goback()"></image>
+			<image src="../../static/shop.png" mode=""></image>
+			<image src="../../static/fenxian.png" mode=""></image>
+		</view>
+		<view class="info">
+			<p class="info-title">碧波币</p>
+			<p class="info-desc">碧波币（bibobi）是一种P2P形式的数字货币。</p>
+			<p class="info-num">1.256 CNY</p>
+		</view>
+		<view class="detail">
+			<view class="title">碧波币卖点解析</view>
+			<view class="detailimg">
+				<image src="../../static/shop.png"></image>
+				<image src="../../static/shop.png"></image>
+				<image src="../../static/shop.png"></image>
+				<image src="../../static/shop.png"></image>
+			</view>
+		</view>
+		<view class="fix">
+			<view class="fixleft">
+				<view class="fixicon">
+					<image src="../../static/dianpu_2.png" mode=""></image>
+					<p>
+						首页
+					</p>
+				</view>
+				<view class="fixicon">
+					<image src="../../static/kefu_2.png" mode=""></image>
+					<p>
+						客服
+					</p>
+				</view>
+			</view>
+			<view class="fixright">
+				<view class="daijinquan btn" @click="goticked()" >代金券抢购</view>
+				<view class=" btn" @click="gocar">立即结算</view>
+			</view>
+		</view>
+	</view>
+</template>
+<script>
+	export default {
+		data() {
+			return {}
+		},
+		methods: {
+			goback: function () {
+				uni.navigateBack({
+					delta: 1,
+				})
+			},
+			gocar(){
+				uni.navigateTo({
+					url:'shopcar'
+				})
+			},
+			goticked(){
+				uni.navigateTo({
+					url:'ticked'
+				})
+			}
+		}
+	}
+</script>
+
+<style>
+	.header {
+		width: 750px;
+		height: 420px;
+		background-color: #d8d8d8;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.header image:nth-of-type(1) {
+		position: absolute;
+		top: 40px;
+		left: 20px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.header image:nth-of-type(3) {
+		position: absolute;
+		top: 40px;
+		right: 20px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.header image:nth-of-type(2) {
+		width: 750px;
+		height: 420px;
+	}
+
+	.info {
+		height: 170px;
+		width: 750px;
+		box-sizing: border-box;
+		padding-left: 40px;
+		padding-top: 20px;
+		display: flex;
+		flex-direction: column;
+		background-color: #FFFFFF;
+	}
+
+	.info-title {
+		height: 70px;
+		line-height: 70px;
+		font-size: 40px;
+		color: #585858;
+	}
+
+	.info-desc {
+		font-size: 24px;
+		height: 40px;
+		line-height: 40px;
+		color: #b6b6b6;
+	}
+
+	.info-num {
+		height: 40px;
+		line-height: 40px;
+		font-size: 32px;
+		color: #e97b78;
+	}
+
+	.detail {
+		margin-top: 20px;
+		height: 600px;
+		width: 100%;
+		background: #FFFFFF;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.title {
+		height: 70px;
+		line-height: 70px;
+		width: 100%;
+		text-align: center;
+		font-size: 24px;
+
+		color: #6c6c6c;
+	}
+
+	.detailimg {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.detailimg image {
+		width: 370px;
+		height: 270px;
+		margin-bottom: 10px;
+	}
+
+	.detailimg image:nth-of-type(1) {
+		margin-right: 10px;
+	}
+
+	.detailimg image:nth-of-type(3) {
+		margin-right: 10px;
+	}
+
+	.fix {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 750px;
+		height: 100px;
+		background-color: #ffffff;
+		display: flex;
+	}
+
+	.fixleft {
+		flex: 1;
+		display: flex;
+	}
+
+	.fixicon {
+		width: 50%;
+		height: 100px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		font-size: 24px;
+
+		color: #b6b6b6;
+	}
+
+	.fixleft image {
+		width: 40px;
+		height: 40px;
+		margin-bottom: 4px;
+	}
+
+	.fixright {
+		display: flex;
+	}
+
+	.btn {
+		width: 220px;
+		height: 100px;
+		text-align: center;
+		line-height: 100px;
+		color: #FFFFFF;
+		background-color: #e97b78;
+	}
+
+	.daijinquan {
+		background-color: #585858;
+	}
+</style>

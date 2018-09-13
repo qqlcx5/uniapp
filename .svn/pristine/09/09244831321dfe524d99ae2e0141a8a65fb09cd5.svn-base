@@ -1,0 +1,71 @@
+<template name="387c9887">
+  <view class="_view data-v-432c5ee4">
+    <view style="position: fixed; z-index: 100;" class="_view data-v-432c5ee4">
+      <view class="_view data-v-432c5ee4 status-contents">
+        <view class="_view data-v-432c5ee4 status top-view"></view>
+      </view>
+      <view class="_view data-v-432c5ee4 search-color">
+        <view class="_view data-v-432c5ee4 search-left">
+          <image src="../../static/sys.png" class="_image data-v-432c5ee4 search-img" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+        </view>
+        <view class="_view data-v-432c5ee4 search-center">
+          <view class="_view data-v-432c5ee4 search"></view>
+        </view>
+        <view class="_view data-v-432c5ee4 search-right" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+          <image src="../../static/message.png" class="_image data-v-432c5ee4 search-img"></image>
+        </view>
+      </view>
+    </view>
+    <view style="position:absolute;top: 100rpx; " class="_view data-v-432c5ee4">
+      <view class="_view data-v-432c5ee4 page-body">
+        <view class="_view data-v-432c5ee4 swiper-item">
+          <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{duration}}" style="height: 371rpx;" class="_swiper data-v-432c5ee4">
+            <swiper-item wx:key="key" key="{{key}}" wx:for="{{imgUrls}}" wx:for-index="key" wx:for-item="img" class="_swiper-item data-v-432c5ee4">
+              <image src="{{img}}" style="height: 400rpx;" class="_image data-v-432c5ee4 swiper-img"></image>
+            </swiper-item>
+          </swiper>
+        </view>
+        <view class="_view data-v-432c5ee4 tuijian-title ">【热卖推荐】</view>
+        <view class="_view data-v-432c5ee4 tuijian" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-432c5ee4 tuijian-des"> 碧波币（bibobi），是一种P2P形式的数字货币。 </view>
+          <image src="../../static/image1.png" class="_image data-v-432c5ee4 tuijian-img"></image>
+          <view class="_view data-v-432c5ee4 tuijian-content">
+            <view class="_view data-v-432c5ee4 tuijian-content-left">
+              <view class="_view data-v-432c5ee4 text">碧波币</view>
+              <view class="_view data-v-432c5ee4  price">1.256 CNY</view>
+            </view>
+            <view class="_view data-v-432c5ee4 tuijian-content-right">
+              <button class="_button data-v-432c5ee4 tuijian-button">购买</button>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-432c5ee4 tuijian">
+          <view class="_view data-v-432c5ee4 tuijian-des"> 碧波币（bibobi），是一种P2P形式的数字货币。 </view>
+          <image src="../../static/image1.png" class="_image data-v-432c5ee4 tuijian-img"></image>
+          <view class="_view data-v-432c5ee4 tuijian-content">
+            <view class="_view data-v-432c5ee4 tuijian-content-left">
+              <view class="_view data-v-432c5ee4 text">碧波币</view>
+              <view class="_view data-v-432c5ee4  price">1.256 CNY</view>
+            </view>
+            <view class="_view data-v-432c5ee4 tuijian-content-right">
+              <button class="_button data-v-432c5ee4 tuijian-button">购买</button>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-432c5ee4 tuijian">
+          <view class="_view data-v-432c5ee4 tuijian-des"> 碧波币（bibobi），是一种P2P形式的数字货币。 </view>
+          <image src="../../static/image1.png" class="_image data-v-432c5ee4 tuijian-img"></image>
+          <view class="_view data-v-432c5ee4 tuijian-content">
+            <view class="_view data-v-432c5ee4 tuijian-content-left">
+              <view class="_view data-v-432c5ee4 text">碧波币</view>
+              <view class="_view data-v-432c5ee4  price">1.256 CNY</view>
+            </view>
+            <view class="_view data-v-432c5ee4 tuijian-content-right">
+              <button class="_button data-v-432c5ee4 tuijian-button">购买</button>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

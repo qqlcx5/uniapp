@@ -1,0 +1,56 @@
+<template>
+	<view class="header">
+		<view class="header-left" @click="goback()">
+			<text class="icon">&#xe720;</text>
+			<!-- <image src="../../static/left.png" mode=""></image> -->
+		</view>
+		<view class="header-content">
+			{{headertitle}}
+		</view>
+		<view class="header-right">
+			<!-- <image src="../../static/sousuo.png" mode=""></image> -->
+		</view>
+	</view>
+</template>
+<script>
+	export default {
+		data() {
+			return {}
+		},
+		props: ['headertitle'],
+		methods: {
+			goback: function () {
+				uni.navigateBack({
+					delta: 1
+				})
+			}
+		}
+	}
+</script>
+<style>
+	.header {
+		height: 100px;
+		width: 100%;
+		display: flex;
+		box-sizing: border-box;
+		padding-top: 20px;
+		align-items: center;
+		background-color: #fff;
+		box-shadow: 0px 4px 8px 0px rgba(238, 238, 238, 0.5);
+	}
+
+	.header-left,
+	.header-right {
+		width: 80px;
+		height: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.header-content {
+		flex: 1;
+		font-size: 36px;
+		text-align: center;
+	}
+</style>

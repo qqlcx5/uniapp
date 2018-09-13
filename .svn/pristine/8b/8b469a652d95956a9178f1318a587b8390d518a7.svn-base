@@ -1,0 +1,32 @@
+<template name="chatdialog$3071a12f">
+  <view class="_view data-v-803f1014">
+    <view class="_view data-v-803f1014 header">
+      <view class="_view data-v-803f1014 header-left">
+        <image src="../../static/left_2.png" mode class="_image data-v-803f1014"></image>
+      </view>
+      <view class="_view data-v-803f1014 header-content"> 尼古拉斯 </view>
+      <view class="_view data-v-803f1014 header-right"></view>
+    </view>
+    <view class="_view data-v-803f1014 dialog">
+      <view class="_view data-v-803f1014 dialogTime"> 星期六 16:48 </view>
+      <view class="_view data-v-803f1014 you">
+        <view class="_view data-v-803f1014 you-image">
+          <image src="../../static/bg.jpg" class="_image data-v-803f1014"></image>
+        </view>
+        <view class="_view data-v-803f1014 you-box"> 在吗？在吗？在吗？在吗？ </view>
+      </view>
+      <view class="_view data-v-803f1014 my">
+        <view class="_view data-v-803f1014 my-box"> 在吗？在吗？在吗？在吗？在吗？ </view>
+        <view class="_view data-v-803f1014 my-image">
+          <image src="../../static/bg.jpg" class="_image data-v-803f1014"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-803f1014 send-message">
+      <image class="_image data-v-803f1014 mgl mgr" src="../../static/yuyin.png" mode></image>
+      <input type="text" class="_input data-v-803f1014" />
+      <image class="_image data-v-803f1014 mgl" src="../../static/biaoqing.png" mode></image>
+      <image class="_image data-v-803f1014 mgl mgr" src="../../static/jiaohao_2.png" mode></image>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,48 @@
+<template name="addFriend$65316066">
+  <view class="_view data-v-93761c82 page">
+    <view class="_view data-v-93761c82 header">
+      <view class="_view data-v-93761c82 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-93761c82"></image>
+      </view>
+      <view class="_view data-v-93761c82 header-content"> 添加好友 </view>
+      <view class="_view data-v-93761c82 header-right"></view>
+    </view>
+    <view class="_view data-v-93761c82 search-box">
+      <view class="_view data-v-93761c82 search">
+        <image class="_image data-v-93761c82 search-icon" src="../../static/sousuo.png" mode></image> 碧波账号/手机号 </view>
+    </view>
+    <view class="_view data-v-93761c82 list-box">
+      <view class="_view data-v-93761c82 list">
+        <view class="_view data-v-93761c82 item-left">
+          <image src="../../static/saoyisao.png" mode class="_image data-v-93761c82"></image>
+        </view>
+        <view class="_view data-v-93761c82 item-content"> 扫一扫 </view>
+        <view class="_view data-v-93761c82 item-right">
+          <image src="../../static/right.png" mode class="_image data-v-93761c82"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-93761c82 list-box">
+      <view class="_view data-v-93761c82 list">
+        <view class="_view data-v-93761c82 item-left">
+          <image src="../../static/tongxunlu_2.png" mode class="_image data-v-93761c82"></image>
+        </view>
+        <view class="_view data-v-93761c82 item-content"> 通讯录好友 </view>
+        <view class="_view data-v-93761c82 item-right">
+          <image src="../../static/right.png" mode class="_image data-v-93761c82"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-93761c82 list-box">
+      <view class="_view data-v-93761c82 list">
+        <view class="_view data-v-93761c82 item-left">
+          <image src="../../static/fujingderen.png" mode class="_image data-v-93761c82"></image>
+        </view>
+        <view class="_view data-v-93761c82 item-content"> 附近的人 </view>
+        <view class="_view data-v-93761c82 item-right">
+          <image src="../../static/right.png" mode class="_image data-v-93761c82"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

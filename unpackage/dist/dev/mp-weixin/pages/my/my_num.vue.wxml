@@ -1,0 +1,37 @@
+<template name="73ad34ce">
+  <view class="_view data-v-0522f7d6">
+    <view class="_view data-v-0522f7d6 header">
+      <view class="_view data-v-0522f7d6 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-0522f7d6"></image>
+      </view>
+      <view class="_view data-v-0522f7d6 header-content"> 账户设置 </view>
+      <view class="_view data-v-0522f7d6 header-right"></view>
+    </view>
+    <view class="_view data-v-0522f7d6 body-content">
+      <view class="_view data-v-0522f7d6 list-box">
+        <view class="_ul data-v-0522f7d6">
+          <view class="_li data-v-0522f7d6">
+            <label class="_span data-v-0522f7d6 list-item-title">碧波号</label>
+            <label class="_span data-v-0522f7d6 list-item-content">Bbobi8888888</label>
+          </view>
+          <view class="_li data-v-0522f7d6">
+            <label class="_span data-v-0522f7d6 list-item-title">手机号</label>
+            <label class="_span data-v-0522f7d6 list-item-content">18888888888</label>
+          </view>
+          <view class="_li data-v-0522f7d6">
+            <label class="_span data-v-0522f7d6 list-item-title">登录邮箱</label>
+            <label class="_span data-v-0522f7d6 list-item-content">Bbobi888@163.com</label>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-0522f7d6 list-box height-margin">
+        <view class="_ul data-v-0522f7d6">
+          <view class="_li data-v-0522f7d6">
+            <label class="_span data-v-0522f7d6 list-item-title">修改密码</label>
+            <image src="../../static/right_01.png" class="_image data-v-0522f7d6"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

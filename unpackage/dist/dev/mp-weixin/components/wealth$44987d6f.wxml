@@ -1,0 +1,184 @@
+<template name="wealth$44987d6f">
+  <view class="_view data-v-2e95cf06">
+    <view style="position: fixed; z-index: 10;" class="_view data-v-2e95cf06">
+      <view class="_view data-v-2e95cf06 status-contents">
+        <view class="_view data-v-2e95cf06 status top-view"></view>
+      </view>
+      <view class="_view data-v-2e95cf06 search-color">
+        <view class="_view data-v-2e95cf06 search-left">
+          <image src="../../static/sys.png" class="_image data-v-2e95cf06 search-img" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"></image>
+        </view>
+        <view class="_view data-v-2e95cf06 search-center">
+          <view class="_view data-v-2e95cf06 search"> 我的资产 </view>
+        </view>
+        <view class="_view data-v-2e95cf06 search-right">
+          <image src="../../static/camera.png" class="_image data-v-2e95cf06 search-img"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 persion">
+        <view class="_view data-v-2e95cf06 persion-coin">6587457.514</view>
+        <view class="_view data-v-2e95cf06 persion-coin">CNY</view>
+        <view class="_view data-v-2e95cf06 persion-manage">
+          <view class="_view data-v-2e95cf06 persion-manage-sub">
+            <image src="../../static/chongzhi.png" class="_image data-v-2e95cf06 persion-manage-img"></image>
+            <view class="_view data-v-2e95cf06 text">兑换记录</view>
+          </view>
+          <view class="_view data-v-2e95cf06 persion-manage-sub">
+            <image src="../../static/transfer.png" class="_image data-v-2e95cf06 persion-manage-img"></image>
+            <view class="_view data-v-2e95cf06 text">充币记录</view>
+          </view>
+          <view class="_view data-v-2e95cf06 persion-manage-sub">
+            <image src="../../static/out.png" class="_image data-v-2e95cf06 persion-manage-img"></image>
+            <view class="_view data-v-2e95cf06 text">提币记录</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view style="position:absolute;top:475rpx ; overflow: auto;height:595rpx" class="_view data-v-2e95cf06">
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+      <view class="_view data-v-2e95cf06 list">
+        <view class="_view data-v-2e95cf06 list-sub">
+          <image src="../../static/bb.png" class="_image data-v-2e95cf06 list-left"></image>
+          <view class="_view data-v-2e95cf06 list-center">
+            <view class="_view data-v-2e95cf06 list-title">bbb</view>
+            <view class="_view data-v-2e95cf06 list-des">(bibobi)</view>
+          </view>
+          <image src="../../static/right.png" class="_image data-v-2e95cf06 list-right"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-2e95cf06 wealth-bottom">
+      <view style="position: fixed; bottom: 10rpx;" class="_view data-v-2e95cf06">
+        <view class="_view data-v-2e95cf06 list">
+          <view class="_view data-v-2e95cf06 renwu">
+            <image src="../../static/renwu.png" class="_image data-v-2e95cf06"></image>
+            <view class="_view data-v-2e95cf06">做任务转币</view>
+          </view>
+          <view class="_view data-v-2e95cf06 zhuanbi">
+            <image src="../../static/youxi.png" class="_image data-v-2e95cf06"></image>
+            <view class="_view data-v-2e95cf06">玩游戏转币</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

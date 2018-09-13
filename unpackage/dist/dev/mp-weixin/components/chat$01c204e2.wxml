@@ -1,0 +1,7 @@
+<template name="chat$01c204e2">
+  <view class="_view data-v-732b99e6 content">
+    <view class="_view data-v-732b99e6 status-contents">
+      <view class="_view data-v-732b99e6 status top-view"></view>
+    </view>
+  </view>
+</template>

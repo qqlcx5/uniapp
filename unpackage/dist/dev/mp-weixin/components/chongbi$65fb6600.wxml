@@ -1,0 +1,21 @@
+<template name="chongbi$65fb6600">
+  <view class="_view data-v-61457999 page">
+    <view class="_view data-v-61457999 header">
+      <view class="_view data-v-61457999 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-61457999"></image>
+      </view>
+      <view class="_view data-v-61457999 header-content"> 充币 </view>
+      <view class="_view data-v-61457999 header-right"></view>
+    </view>
+    <view class="_view data-v-61457999 qrcode">
+      <view class="_view data-v-61457999 image-box">
+        <image src="../../static/qrcode.jpg" class="_image data-v-61457999"></image>
+      </view>
+      <view class="_p data-v-61457999">保存二维码</view>
+    </view>
+    <view class="_view data-v-61457999 address">
+      <view class="_p data-v-61457999">0x685ED8649C7C5558bAC3b628Ed086AF605D0c4B4</view>
+      <view class="_p data-v-61457999">复制地址</view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,275 @@
+<template>
+	<view class="">
+		<view class="header">
+			<view class="header-left" @click="goback()">
+				<image src="../../static/left_2.png" mode=""></image>
+			</view>
+			<view class="header-content">
+				碧波币
+			</view>
+			<view class="header-right">
+				<image src="../../static/sousuo.png" mode=""></image>
+			</view>
+		</view>
+		<view class="header_title">
+			<p class="header-title">100BBB</p>
+			<p class="header-desc">行情价：0.00092 CNY/BBB</p>
+			<image src="../../static/bbsjbg.png"></image>
+		</view>
+		<view class="main">
+			<view class="main_info">
+				<view class="main_info_title">
+					<i></i>碧波币介绍
+				</view>
+				<view class="main-image">
+					<image src="../../static/logo_2.png"></image>
+					<p>碧波币（Bibobi）是一种P2P形式的数字货币。碧波币（Bibobi）是一种P2P形式的数字货币。碧波币（Bibobi）是一种P2P形式的数字货币。碧波币（Bibobi）是一种P2P形式的数字货币。碧波币（Bibobi）是一种P2P形式的数字货币。碧波币（Bibobi）是一种P2P形式的数字货币。碧波币（Bibobi）是一种P2P形式的数字货币。碧波币（Bibobi）是一种P2P形式的数字货币。碧波币（Bibobi）是一种P2P形式的数字货币。</p>
+				</view>
+			</view>
+			<view class="main-site">
+				<view class="main_info_title">
+					<i></i>碧波币地址簿
+				</view>
+				<view class="address">
+					<view class="site-item" @click="gotobibo()">
+						<image class="site-item-image" src="../../static/qiangdao.png"></image>
+						<view class="site-item-content">
+							碧波地址
+						</view>
+						<image class="site-item-right" src="../../static/right.png" mode=""></image>
+					</view>
+					<view class="site-item" @click="gotojieshou()">
+						<image class="site-item-image" src="../../static/qiangdao.png"></image>
+						<view class="site-item-content">
+							接收地址
+						</view>
+						<image class="site-item-right" src="../../static/right.png" mode=""></image>
+					</view>
+
+				</view>
+			</view>
+			<view class="main-btn">
+				<view class="btn-item mgr" @click="gotochongbi">
+					充币
+				</view>
+				<view class="btn-item mgr mgl" @click="gototibi">
+					提取
+				</view>
+				<view class="btn-item mgl" @click="gotobizhongzhuanhuan">
+					兑换
+				</view>
+
+			</view>
+		</view>
+	</view>
+</template>
+<script>
+	export default {
+		data() {
+			return {}
+		},
+		onLoad() {
+
+		},
+		methods: {
+			gotobizhongzhuanhuan: function () {
+				uni.navigateTo({
+					url: "bizhongzhuanhuan"
+				})
+			},
+			gotochongbi: function () {
+				uni.navigateTo({
+					url: "chongbi"
+				})
+			},
+			gototibi: function () {
+				uni.navigateTo({
+					url: "tibi"
+				})
+			},
+			gotobibo: function () {
+				uni.navigateTo({
+					url: "jieshoudizhi"
+				})
+			},
+			gotojieshou: function () {
+				uni.navigateTo({
+					url: "kongjieshoudizhi"
+				})
+			},
+			goback: function () {
+				uni.navigateBack({
+					delta:1,
+				})
+			},
+		}
+	}
+</script>
+<style>
+	.header {
+		height: 100px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		color: #FFFFFF;
+		background: #8cafea;
+	}
+
+	.header-left,
+	.header-right {
+		width: 100px;
+		height: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.header image {
+		width: 40px;
+		height: 40px;
+	}
+
+	.header-content {
+		flex: 1;
+		text-align: center;
+	}
+
+	.header_title {
+		height: 275px;
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.header_title image {
+		width: 100%;
+	}
+
+	.header-title {
+		position: absolute;
+		bottom: 40%;
+		width: 100%;
+		text-align: center;
+		font-size: 48px;
+		color: #ffffff;
+	}
+
+	.header-desc {
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		bottom: 20%;
+		font-size: 28px;
+		color: #ffffff;
+	}
+
+	.main_info {
+		height: 280px;
+		width: 100%;
+		padding: 40px 0;
+		box-sizing: border-box;
+	}
+.main-site{
+	margin-top: 40px;
+}
+	.main_info_title {
+		display: flex;
+		height: 44px;
+		width: 100%;
+		font-size: 32px;
+		font-weight: 600;
+		align-items: center;
+	}
+
+	.main_info_title i {
+		width: 14px;
+		height: 44px;
+		background-color: #8cafea;
+		margin-right: 20px;
+	}
+
+	.main-image {
+		display: flex;
+		width: 100%;
+		height: 180px;
+		align-items: center;
+		margin: 20px 0;
+	}
+
+	.main-image image {
+		width: 114px;
+		height: 114px;
+		margin: 0 40px;
+	}
+
+	.main-image p {
+		flex: 1;
+		height: 180px;
+		padding-right: 40px;
+		overflow: auto;
+		font-size: 28px;
+		color: #b6b6b6;
+		text-align: justify;
+	}
+
+	.address {
+		display: flex;
+		flex-direction: column;
+		margin-top: 20px;
+	}
+
+	.site-item {
+		width: 100%;
+		height: 100px;
+		display: flex;
+		align-items: center;
+		background-color: #ffffff;
+		border-bottom: 2px solid #f7f7f7;
+	}
+
+	.site-item-image,
+	.site-item-right {
+		width: 40px;
+		height: 40px;
+		margin: 0 20px;
+	}
+
+	.site-item-content {
+		flex: 1;
+		font-size: 28px;
+		color: #6c6c6c;
+	}
+
+	.site-item-right {
+		width: 20px;
+		height: 29px;
+		margin: 0 20px;
+	}
+
+	.main-btn {
+		height: 200px;
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		padding: 40px;
+	}
+
+	.main-btn .btn-item {
+		width: 33.33%;
+		height: 128px;
+		background-color: #8cafea;
+		border-radius: 10px;
+		line-height: 128px;
+		text-align: center;
+		color: #ffffff;
+		font-size: 32px;
+	}
+
+	.mgr {
+		margin-right: 2%;
+	}
+
+	.mgl {
+		margin-left: 2%;
+	}
+</style>

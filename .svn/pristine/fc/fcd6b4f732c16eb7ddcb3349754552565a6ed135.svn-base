@@ -1,0 +1,60 @@
+<template>
+ <view class="">
+ 	<view class="header">
+ 		<view class="header-left">
+ 			<image src="../../static/left.png" mode=""></image>
+ 		</view>
+		<view class="header-content">
+			碧波币
+		</view>
+		<view class="header-right">
+			<image src="../../static/sousuo.png" mode=""></image>
+		</view>
+ 	</view>
+ </view>
+	</template>
+<script>
+	export default {
+		data() {
+			return {}
+		},
+		onLoad() {
+
+		},
+		methods: {
+			goto: function () {
+				uni.navigateTo({
+					url: "tickRecord"
+				})
+			},
+
+		}
+	}
+</script>
+<style>
+	.header{
+		height: 64px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		background: #8cafea;
+		
+	}
+	.header-left,.header-right{
+		width: 100px;
+		height: 64px;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.header image{
+		width: 40px;
+		height: 40px;
+	}
+	.header-content{
+		flex: 1;
+		text-align: center;
+		
+	}
+</style>

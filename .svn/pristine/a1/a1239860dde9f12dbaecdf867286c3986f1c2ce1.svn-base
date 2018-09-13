@@ -1,0 +1,49 @@
+<template name="redemptionRecord$2253cbb6">
+  <view class="_view data-v-a4d89786">
+    <view class="_div data-v-a4d89786 header">
+      <view class="_div data-v-a4d89786 header-left">
+        <image src="../../static/left.png" mode class="_image data-v-a4d89786"></image>
+      </view>
+      <view class="_div data-v-a4d89786 header-content"> 交易记录 </view>
+      <view class="_div data-v-a4d89786 header-right">
+        <image src="../../static/sousuo.png" mode class="_image data-v-a4d89786"></image>
+      </view>
+    </view>
+    <view class="_div data-v-a4d89786">
+      <view class="_div data-v-a4d89786 time">2018年8月16日</view>
+      <view class="_div data-v-a4d89786 time-info">
+        <view class="_div data-v-a4d89786 time-img">
+          <image src="../../static/hongbao.png" mode class="_image data-v-a4d89786"></image>
+        </view>
+        <view class="_div data-v-a4d89786 time-title">
+          <view class="_h1 data-v-a4d89786"> 8元碧波币红包 </view>
+          <view class="_h3 data-v-a4d89786"> 2018-8-13 17:30:40 </view>
+        </view>
+        <view class="_div data-v-a4d89786 time-pay">-1000</view>
+      </view>
+    </view>
+    <view class="_div data-v-a4d89786">
+      <view class="_div data-v-a4d89786 time">2018年8月16日</view>
+      <view class="_div data-v-a4d89786 time-info">
+        <view class="_div data-v-a4d89786 time-img">
+          <image src="../../static/hongbao.png" mode class="_image data-v-a4d89786"></image>
+        </view>
+        <view class="_div data-v-a4d89786 time-title">
+          <view class="_h1 data-v-a4d89786"> 8元碧波币红包 </view>
+          <view class="_h3 data-v-a4d89786"> 2018-8-13 17:30:40 </view>
+        </view>
+        <view class="_div data-v-a4d89786 time-pay">-1000</view>
+      </view>
+      <view class="_div data-v-a4d89786 time-info">
+        <view class="_div data-v-a4d89786 time-img">
+          <image src="../../static/hongbao.png" mode class="_image data-v-a4d89786"></image>
+        </view>
+        <view class="_div data-v-a4d89786 time-title">
+          <view class="_h1 data-v-a4d89786"> 8元碧波币红包 </view>
+          <view class="_h3 data-v-a4d89786"> 2018-8-13 17:30:40 </view>
+        </view>
+        <view class="_div data-v-a4d89786 time-pay">-1000</view>
+      </view>
+    </view>
+  </view>
+</template>

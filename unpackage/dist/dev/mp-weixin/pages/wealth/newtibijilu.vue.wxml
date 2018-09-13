@@ -1,0 +1,57 @@
+<template name="4aa22a4c">
+  <view class="_view data-v-352389f3">
+    <view class="_view data-v-352389f3 header">
+      <view class="_view data-v-352389f3 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-352389f3"></image>
+      </view>
+      <view class="_view data-v-352389f3 header-content"> 提币记录 </view>
+      <view class="_view data-v-352389f3 header-right">
+        <image src="../../static/sousuo.png" mode class="_image data-v-352389f3"></image>
+      </view>
+    </view>
+    <view class="_view data-v-352389f3 info-list">
+      <view class="_view data-v-352389f3 time">
+        <view class="_view data-v-352389f3"> 碧波币(23984) </view>
+        <view class="_view data-v-352389f3"> 2018年8月14日 17:30:40 </view>
+      </view>
+      <view class="_view data-v-352389f3 time-info">
+        <view class="_view data-v-352389f3 time-item">
+          <view class="_h1 data-v-352389f3">65700265448125448Sdd</view>
+          <view class="_h3 data-v-352389f3">提币地址</view>
+        </view>
+        <view class="_view data-v-352389f3 time-item">
+          <view class="_h1 data-v-352389f3">
+            <image src="../../static/qrcode.jpg" mode class="_image data-v-352389f3"></image>
+          </view>
+          <view class="_h3 data-v-352389f3">提币二维码</view>
+        </view>
+        <view class="_view data-v-352389f3 time-item">
+          <view class="_h1 data-v-352389f3">5326 CNY</view>
+          <view class="_h3 data-v-352389f3">提币数量</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-352389f3 info-list">
+      <view class="_view data-v-352389f3 time">
+        <view class="_view data-v-352389f3"> 比特币(剩：1个) </view>
+        <view class="_view data-v-352389f3"> 2018年8月14日 17:30:40 </view>
+      </view>
+      <view class="_view data-v-352389f3 time-info">
+        <view class="_view data-v-352389f3 time-item">
+          <view class="_h1 data-v-352389f3">65700265448125448Sdd</view>
+          <view class="_h3 data-v-352389f3">提币地址</view>
+        </view>
+        <view class="_view data-v-352389f3 time-item">
+          <view class="_h1 data-v-352389f3">
+            <image src="../../static/qrcode.jpg" mode class="_image data-v-352389f3"></image>
+          </view>
+          <view class="_h3 data-v-352389f3">提币二维码</view>
+        </view>
+        <view class="_view data-v-352389f3 time-item">
+          <view class="_h1 data-v-352389f3">5326 CNY</view>
+          <view class="_h3 data-v-352389f3">提币数量</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

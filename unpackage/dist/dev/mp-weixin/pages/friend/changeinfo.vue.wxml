@@ -1,0 +1,46 @@
+<template name="1ef9c9f2">
+  <view class="_view data-v-7c3c9664">
+    <view class="_view data-v-7c3c9664 header">
+      <view class="_view data-v-7c3c9664 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-7c3c9664"></image>
+      </view>
+      <view class="_view data-v-7c3c9664 header-content"> 修改资料 </view>
+      <view class="_view data-v-7c3c9664 header-right green"></view>
+    </view>
+    <view class="_view data-v-7c3c9664 content">
+      <view class="_view data-v-7c3c9664 item bord">
+        <view class="_view data-v-7c3c9664 item-title"> 昵称 </view>
+        <view class="_view data-v-7c3c9664 item-content">
+          <input type="text" placeholder="克里斯" class="_input data-v-7c3c9664" />
+        </view>
+      </view>
+      <view class="_view data-v-7c3c9664 item bord">
+        <view class="_view data-v-7c3c9664 item-title"> 性别 </view>
+        <view class="_view data-v-7c3c9664 item-content">
+          <input type="text" placeholder="男" class="_input data-v-7c3c9664" />
+        </view>
+      </view>
+      <view class="_view data-v-7c3c9664 item">
+        <view class="_view data-v-7c3c9664 item-title"> 生日 </view>
+        <view class="_view data-v-7c3c9664 item-content">
+          <input type="text" placeholder="1997-02-15" class="_input data-v-7c3c9664" />
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-7c3c9664 content mgt">
+      <view class="_view data-v-7c3c9664 item bord">
+        <view class="_view data-v-7c3c9664 item-title"> 星座 </view>
+        <view class="_view data-v-7c3c9664 item-content">
+          <input type="text" placeholder="摩羯座" class="_input data-v-7c3c9664" />
+        </view>
+      </view>
+      <view class="_view data-v-7c3c9664 item bord">
+        <view class="_view data-v-7c3c9664 item-title"> 故乡 </view>
+        <view class="_view data-v-7c3c9664 item-content">
+          <input type="text" placeholder="福建-厦门" class="_input data-v-7c3c9664" />
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-7c3c9664 btn"> 保存 </view>
+  </view>
+</template>

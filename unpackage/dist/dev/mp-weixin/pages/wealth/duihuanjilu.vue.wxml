@@ -1,0 +1,31 @@
+<template name="0b7f44a0">
+  <view class="_view data-v-54b4fcc9">
+    <view class="_view data-v-54b4fcc9 header">
+      <view class="_view data-v-54b4fcc9 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image class="_image data-v-54b4fcc9 header-back" src="../../static/left.png" mode></image>
+      </view>
+      <view class="_view data-v-54b4fcc9 header-content"> 兑换记录 </view>
+      <view class="_view data-v-54b4fcc9 header-right">
+        <image src="../../static/sousuo.png" mode class="_image data-v-54b4fcc9"></image>
+      </view>
+    </view>
+    <view class="_view data-v-54b4fcc9">
+      <view class="_view data-v-54b4fcc9 time">2018年8月16日 17:30:40</view>
+      <view class="_view data-v-54b4fcc9 time-info">
+        <view class="_view data-v-54b4fcc9 time-item">
+          <view class="_h1 data-v-54b4fcc9">
+            <view class="_i data-v-54b4fcc9 bule">碧波币</view>
+            <label class="_span data-v-54b4fcc9">转</label>
+            <view class="_i data-v-54b4fcc9 bule">比特币</view>
+          </view>
+          <view class="_h2 data-v-54b4fcc9">100 = 0.5</view>
+          <view class="_h3 data-v-54b4fcc9">2018－8-13 17:30:40</view>
+        </view>
+        <view class="_view data-v-54b4fcc9 time-right">
+          <view class="_h1 data-v-54b4fcc9">手续费</view>
+          <view class="_h3 data-v-54b4fcc9 redColor">1 碧波币</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

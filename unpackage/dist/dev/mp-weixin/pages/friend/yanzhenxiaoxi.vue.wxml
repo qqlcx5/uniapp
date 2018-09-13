@@ -1,0 +1,31 @@
+<template name="74804374">
+  <view class="_view data-v-0449804d">
+    <view class="_view data-v-0449804d header">
+      <view class="_view data-v-0449804d header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-0449804d"></image>
+      </view>
+      <view class="_view data-v-0449804d header-content"> 添加好友 </view>
+      <view class="_view data-v-0449804d header-right"> 发送 </view>
+    </view>
+    <view class="_view data-v-0449804d list-box">
+      <view class="_view data-v-0449804d list">
+        <view class="_view data-v-0449804d item-left">
+          <image src="../../static/bg.jpg" mode class="_image data-v-0449804d"></image>
+        </view>
+        <view class="_view data-v-0449804d item-content">
+          <view class="_p data-v-0449804d item-title">Kabir</view>
+          <view class="_p data-v-0449804d item-desc">男 25岁 厦门</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-0449804d test">
+      <view class="_h3 data-v-0449804d">请填写验证信息</view>
+      <textarea placeholder="我是克里斯" class="_textarea data-v-0449804d" />
+      <view class="_h3 data-v-0449804d">请填写验证信息</view>
+      <view class="_view data-v-0449804d note">
+        <label class="_span data-v-0449804d">备注</label>
+        <input type="text" class="_input data-v-0449804d" />
+      </view>
+    </view>
+  </view>
+</template>

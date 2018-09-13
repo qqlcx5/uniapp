@@ -1,0 +1,37 @@
+<template name="47ddede4">
+  <view class="_view data-v-6b7fdfd5">
+    <view class="_view data-v-6b7fdfd5 header">
+      <view class="_view data-v-6b7fdfd5 header-left">
+        <image src="../../static/left.png" mode class="_image data-v-6b7fdfd5"></image>
+      </view>
+      <view class="_view data-v-6b7fdfd5 header-content"> 支付成功 </view>
+      <view class="_view data-v-6b7fdfd5 header-right green"></view>
+    </view>
+    <view class="_view data-v-6b7fdfd5 content">
+      <view class="_view data-v-6b7fdfd5 box">
+        <image src="../../static/zhifuchenggong.png" mode class="_image data-v-6b7fdfd5"></image>
+        <view class="_p data-v-6b7fdfd5 box-title"> 支付成功 </view>
+        <view class="_p data-v-6b7fdfd5 box-desc"> 感谢支持，我们将继续努力！ </view>
+        <view class="_view data-v-6b7fdfd5 box-info">
+          <view class="_view data-v-6b7fdfd5 info-item">
+            <view class="_view data-v-6b7fdfd5">订单号</view>
+            <view class="_view data-v-6b7fdfd5">S54865548521545</view>
+          </view>
+          <view class="_view data-v-6b7fdfd5 info-item">
+            <view class="_view data-v-6b7fdfd5">支付方式</view>
+            <view class="_view data-v-6b7fdfd5">支付宝</view>
+          </view>
+          <view class="_view data-v-6b7fdfd5 info-item">
+            <view class="_view data-v-6b7fdfd5">支付账号</view>
+            <view class="_view data-v-6b7fdfd5">1596547854455</view>
+          </view>
+          <view class="_view data-v-6b7fdfd5 info-item">
+            <view class="_view data-v-6b7fdfd5">订单金额</view>
+            <view class="_view data-v-6b7fdfd5">2.512 CNY</view>
+          </view>
+        </view>
+        <view class="_view data-v-6b7fdfd5 box-detail">订单详情</view>
+      </view>
+    </view>
+  </view>
+</template>

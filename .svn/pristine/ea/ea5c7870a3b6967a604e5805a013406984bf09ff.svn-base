@@ -1,0 +1,37 @@
+<template name="6cb8fbff">
+  <view class="_view data-v-24241bc6">
+    <view class="_view data-v-24241bc6 header">
+      <view class="_view data-v-24241bc6 header-left">
+        <image src="../../static/left.png" mode class="_image data-v-24241bc6"></image>
+      </view>
+      <view class="_view data-v-24241bc6 header-content"> 转换成功 </view>
+      <view class="_view data-v-24241bc6 header-right green"></view>
+    </view>
+    <view class="_view data-v-24241bc6 content">
+      <view class="_view data-v-24241bc6 box">
+        <image src="../../static/zhifuchenggong.png" mode class="_image data-v-24241bc6"></image>
+        <view class="_p data-v-24241bc6 box-title"> 转换成功 </view>
+        <view class="_p data-v-24241bc6 box-desc"> 感谢支持，我们将继续努力！ </view>
+        <view class="_view data-v-24241bc6 box-info">
+          <view class="_view data-v-24241bc6 info-item">
+            <view class="_view data-v-24241bc6">订单号</view>
+            <view class="_view data-v-24241bc6">S54865548521545</view>
+          </view>
+          <view class="_view data-v-24241bc6 info-item">
+            <view class="_view data-v-24241bc6">转换币种</view>
+            <view class="_view data-v-24241bc6">碧波币转比特币</view>
+          </view>
+          <view class="_view data-v-24241bc6 info-item">
+            <view class="_view data-v-24241bc6">手续费</view>
+            <view class="_view data-v-24241bc6">1 碧波币</view>
+          </view>
+          <view class="_view data-v-24241bc6 info-item">
+            <view class="_view data-v-24241bc6">下单时间</view>
+            <view class="_view data-v-24241bc6">2018年9月4日13:55</view>
+          </view>
+        </view>
+        <view class="_view data-v-24241bc6 box-detail">订单详情</view>
+      </view>
+    </view>
+  </view>
+</template>

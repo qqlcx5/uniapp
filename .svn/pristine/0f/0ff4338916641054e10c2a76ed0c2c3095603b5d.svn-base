@@ -1,0 +1,41 @@
+<template name="13a55e30">
+  <view class="_view data-v-72116049">
+    <view class="_view data-v-72116049 header">
+      <view class="_view data-v-72116049 header-left">
+        <image src="../../static/left_2.png" mode class="_image data-v-72116049"></image>
+      </view>
+      <view class="_view data-v-72116049 header-content"> 消息 </view>
+      <view class="_view data-v-72116049 header-right"></view>
+    </view>
+    <view class="_view data-v-72116049 chat-info">
+      <view class="_view data-v-72116049 chat-item">
+        <view class="_view data-v-72116049 chat-img">
+          <image src="../../static/xitongtongzhi.png" mode class="_image data-v-72116049"></image>
+        </view>
+        <view class="_view data-v-72116049 chat-title">
+          <view class="_view data-v-72116049 chat-top">
+            <view class="_view data-v-72116049 chat-top-info"> 系统通知 </view>
+            <view class="_view data-v-72116049 chat-top-time">今天 10:33</view>
+          </view>
+          <view class="_view data-v-72116049 chat-bottom">
+            <view class="_view data-v-72116049 chat-bottom-info">忘记签到好多天，双签大礼包可别再错过双签大礼包可别再错过</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-72116049 chat-item">
+        <view class="_view data-v-72116049 chat-img">
+          <image src="../../static/jiaoyi_2.png" mode class="_image data-v-72116049"></image>
+        </view>
+        <view class="_view data-v-72116049 chat-title">
+          <view class="_view data-v-72116049 chat-top">
+            <view class="_view data-v-72116049 chat-top-info"> 系统通知 </view>
+            <view class="_view data-v-72116049 chat-top-time">今天 10:33</view>
+          </view>
+          <view class="_view data-v-72116049 chat-bottom">
+            <view class="_view data-v-72116049 chat-bottom-info">忘记签到好多天，双签大礼包可别再错过双签大礼包可别再错过</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
