@@ -1,0 +1,35 @@
+<template name="387c9887">
+  <view class="_view data-v-432c5ee4">
+    <view class="_view data-v-432c5ee4 header">
+      <view class="_view data-v-432c5ee4 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-432c5ee4"></image>
+      </view>
+      <view class="_view data-v-432c5ee4 header-content"> 支付设置 </view>
+      <view class="_view data-v-432c5ee4 header-right"></view>
+    </view>
+    <view class="_view data-v-432c5ee4 body-content">
+      <view class="_view data-v-432c5ee4 list-box">
+        <view class="_ul data-v-432c5ee4">
+          <view class="_li data-v-432c5ee4">
+            <label class="_span data-v-432c5ee4 list-item-title">碧波号</label>
+          </view>
+          <view class="_li data-v-432c5ee4">
+            <label class="_span data-v-432c5ee4 list-item-title">手机号</label>
+          </view>
+          <view class="_li data-v-432c5ee4">
+            <label class="_span data-v-432c5ee4 list-item-title">修改密码</label>
+            <view class="_view data-v-432c5ee4">
+              <switch class="_switch data-v-432c5ee4" />
+            </view>
+          </view>
+          <view class="_li data-v-432c5ee4">
+            <label class="_span data-v-432c5ee4 list-item-title">碧波世界安全中心</label>
+            <view class="_view data-v-432c5ee4">
+              <switch class="_switch data-v-432c5ee4" />
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

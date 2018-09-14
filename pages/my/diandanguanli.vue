@@ -1,0 +1,223 @@
+<template>
+	<view class="">
+		<view class="header">
+			<view class="header-left">
+				<image src="../../static/left_2.png" mode=""></image>
+			</view>
+			<view class="header-content">
+				订单管理
+			</view>
+			<view class="header-right ">
+
+			</view>
+		</view>
+		<view class="header-bill">
+			<image src="../../static/dindanguanli.png" mode=""></image>
+			<view class="billtel">
+				<view class="bill-item">订单号码：
+					<input type="text" value="" placeholder="BB20180822" />
+				</view>
+				<view class="bill-item">产品种类：
+					<input type="text" value="" placeholder="货币" />
+				</view>
+			</view>
+			<view class="billdata">
+				<view class="bill-item">开始日期：
+					<input type="text" value="" placeholder="2018.08.22" />
+				</view>
+				<view class="bill-item">结束日期：
+					<input type="text" value="" placeholder="2018.08.28" />
+				</view>
+			</view>
+
+		</view>
+		<view class="btn-box">
+			<view class="btn">
+				查询
+			</view>
+		</view>
+		<view class="list">
+			<view class="item">
+				<view class="item-left blue">
+					XXX贸易公司
+				</view>
+				<view class="item-right">
+					2018年08月22日14:30
+				</view>
+			</view>
+			<view class="item">
+				<view class="item-left">
+					部门：外贸
+				</view>
+				<view class="item-right">
+					业务员：林凛
+				</view>
+			</view>
+			<view class="item">
+				<view class="item-left">
+					出库商品：碧波币
+				</view>
+				<view class="item-right">
+					出库金额：0.5CNY
+				</view>
+			</view>
+			<view class="item">
+				<view class="item-left">
+					结算条件：0.5BBB
+				</view>
+				<view class="item-right">
+					
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+<script>
+	export default {
+		data: {},
+		methods: {
+
+		}
+	}
+</script>
+
+<style>
+	.header {
+		padding-top: 40px;
+		box-sizing: border-box;
+		overflow: hidden;
+		height: 128px;
+		color: #FFFFFF;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		background-color: #8cafea;
+	}
+
+
+	.header-left,
+	.header-right {
+		width: 100px;
+		height: 88px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.header image {
+		width: 40px;
+		height: 40px;
+	}
+
+	.header-content {
+		flex: 1;
+		text-align: center;
+	}
+
+	.header-bill {
+		height: 340px;
+		width: 100%;
+		background-color: #8cafea;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+
+	.header-bill image {
+		width: 720px;
+		height: 260px;
+	}
+
+	.billtel {
+		height: 50px;
+		width: 80%;
+
+		position: absolute;
+		top: 110px;
+		left: 50%;
+		margin-left: -40%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.billdata {
+		height: 50px;
+		width: 80%;
+
+		position: absolute;
+		top: 200px;
+		left: 50%;
+		margin-left: -40%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.bill-item {
+		width: 50%;
+		display: flex;
+		align-items: center;
+	}
+
+	.bill-item input {
+		flex: 1;
+		font-size: 24px;
+		color: #6c6c6c;
+		border-bottom: 2px solid #EEEEEE;
+	}
+
+	.btn-box {
+		width: 100%;
+		height: 140px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	.btn {
+		width: 60%;
+		height: 70px;
+		background-color: #8cafea;
+		border-radius: 36px;
+		text-align: center;
+		line-height: 70px;
+		color: #FFFFFF;
+	}
+	.list{
+		display: flex;
+		flex-direction: column;
+		min-height: 100px;
+		min-width: 100%;
+		border-bottom: 4px solid #dedede;
+	
+	}
+	.item{
+		display: flex;
+		width: 100%;
+		padding: 0 30px;
+		font-size: 28px;
+		box-sizing: border-box;
+		justify-content: space-between;
+		
+	}
+	.item-left{
+		width: 50%;
+		height: 70px;
+		line-height: 70px;
+		text-align: left;
+		 
+	}
+	.item-right{
+		width: 50%;
+		height: 70px;
+		line-height: 70px;
+		text-align: right;
+	 
+	}
+	.blue{
+		color: #8cafea;
+	}
+</style>
