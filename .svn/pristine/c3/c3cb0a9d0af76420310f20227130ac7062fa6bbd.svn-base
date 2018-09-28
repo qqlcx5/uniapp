@@ -1,0 +1,42 @@
+<template name="387c9887">
+  <view class="_view data-v-432c5ee4 page">
+    <view class="_view data-v-432c5ee4 header">
+      <view class="_view data-v-432c5ee4 header-content">
+        <image class="_image data-v-432c5ee4 suosou" src="../../static/sousuo.png" mode></image>
+        <input type="text" placeholder="碧波币" class="_input data-v-432c5ee4" />
+      </view>
+      <view class="_view data-v-432c5ee4 header-right" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"> 取消 </view>
+    </view>
+    <view class="_view data-v-432c5ee4 nearby">
+      <view class="_view data-v-432c5ee4 nearbyheader">
+        <view class="_p data-v-432c5ee4">最近搜索</view>
+        <image src="../../static/shanchu_4.png" mode class="_image data-v-432c5ee4"></image>
+      </view>
+      <view class="_view data-v-432c5ee4 nearby-content">
+        <view class="_ul data-v-432c5ee4 nearby-box">
+          <view class="_li data-v-432c5ee4 nearby-item">货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">的货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">钱的货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">值钱的货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">最值钱的货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">值钱的货币</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-432c5ee4 nearby">
+      <view class="_view data-v-432c5ee4 nearbyheader">
+        <view class="_p data-v-432c5ee4">搜索发现</view>
+      </view>
+      <view class="_view data-v-432c5ee4 nearby-content">
+        <view class="_ul data-v-432c5ee4 nearby-box">
+          <view class="_li data-v-432c5ee4 nearby-item">货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">的货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">钱的货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">值钱的货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">最值钱的货币</view>
+          <view class="_li data-v-432c5ee4 nearby-item">值钱的货币</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

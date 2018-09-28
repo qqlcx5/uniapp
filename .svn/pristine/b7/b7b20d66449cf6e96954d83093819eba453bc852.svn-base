@@ -1,0 +1,66 @@
+<import src="/components/number-box.vue.wxml" />
+<template name="387c9887">
+  <view class="_view data-v-432c5ee4">
+    <view class="_view data-v-432c5ee4 header">
+      <view class="_view data-v-432c5ee4 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-432c5ee4"></image>
+      </view>
+      <view class="_view data-v-432c5ee4 header-content"> 订单支付 </view>
+      <view class="_view data-v-432c5ee4 header-right">
+        <image src="../../static/message.png" mode class="_image data-v-432c5ee4"></image>
+      </view>
+    </view>
+    <view class="_view data-v-432c5ee4 shop-box">
+      <view class="_view data-v-432c5ee4 shop-title"> 碧波币旗舰店 </view>
+      <view class="_view data-v-432c5ee4 shop-item">
+        <view class="_view data-v-432c5ee4 shop-item-left">
+          <image src="../../static/shop.png" mode class="_image data-v-432c5ee4"></image>
+        </view>
+        <view class="_view data-v-432c5ee4 shop-item-right">
+          <view class="_h2 data-v-432c5ee4">碧波币（bibobi）P2P数字货币</view>
+          <view class="_view data-v-432c5ee4 shop-item-num">
+            <view class="_view data-v-432c5ee4">1.256 CNY</view>
+            <view class="_view data-v-432c5ee4 numberBbox">
+              <template data="{{...$root[$kk+'0'], $root}}" is="43a3e0d0"></template>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-432c5ee4">
+      <view class="_view data-v-432c5ee4 list-box">
+        <view class="_view data-v-432c5ee4 list">
+          <view class="_view data-v-432c5ee4 list-text"> 支付金额 </view>
+          <view class="_view data-v-432c5ee4 list-num"> 2.52 CNY </view>
+          <view class="_view data-v-432c5ee4 list-detail"> 查看明细
+            <image src="../../static/bottom.png" mode class="_image data-v-432c5ee4"></image>
+          </view>
+        </view>
+        <view class="_view data-v-432c5ee4 item" hidden="{{!(false)}}"></view>
+      </view>
+      <view class="_view data-v-432c5ee4 list-box">
+        <view class="_view data-v-432c5ee4 list">
+          <view class="_view data-v-432c5ee4 list-text"> 支付方式 </view>
+          <view class="_view data-v-432c5ee4 list-pay">
+            <image src="../../static/wx.png" mode class="_image data-v-432c5ee4"></image>微信 </view>
+          <view class="_view data-v-432c5ee4 list-detail">
+            <image src="../../static/bottom.png" mode class="_image data-v-432c5ee4"></image>
+          </view>
+        </view>
+        <view class="_view data-v-432c5ee4 item">
+          <view class="_view data-v-432c5ee4 item-li">
+            <image src="../../static/wx.png" mode class="_image data-v-432c5ee4"></image>微信 </view>
+          <view class="_view data-v-432c5ee4 item-li">
+            <image src="../../static/wx.png" mode class="_image data-v-432c5ee4"></image>微信 </view>
+          <view class="_view data-v-432c5ee4 item-li">
+            <image src="../../static/wx.png" mode class="_image data-v-432c5ee4"></image>微信 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-432c5ee4 fix-box">
+      <view class="_view data-v-432c5ee4 fix-totle"> 总计： </view>
+      <view class="_view data-v-432c5ee4 fix-num"> 2.52 CNY </view>
+      <view class="_view data-v-432c5ee4 fix-btn"> 支付 </view>
+    </view>
+  </view>
+</template>

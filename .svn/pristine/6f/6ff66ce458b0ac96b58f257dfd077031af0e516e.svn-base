@@ -1,0 +1,35 @@
+<template name="387c9887">
+  <view class="_view data-v-432c5ee4">
+    <view class="_view data-v-432c5ee4 header">
+      <view class="_view data-v-432c5ee4 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-432c5ee4"></image>
+      </view>
+      <view class="_view data-v-432c5ee4 header-content"> 系统通知 </view>
+      <view class="_view data-v-432c5ee4 header-right"></view>
+    </view>
+    <view class="_view data-v-432c5ee4 list">
+      <view class="_view data-v-432c5ee4 item">
+        <view class="_view data-v-432c5ee4 item-li">
+          <image src="../../static/xitongtongzhi.png" mode class="_image data-v-432c5ee4"></image>
+          <text class="_text data-v-432c5ee4 item-name">系统</text>
+          <text class="_text data-v-432c5ee4 item-time">09/12 12:51</text>
+        </view>
+        <view class="_view data-v-432c5ee4 info">
+          <text class="_text data-v-432c5ee4 info-title">2000个碧波币免费送</text>
+          <text class="_text data-v-432c5ee4 info-sign">点击跳转：签到</text>
+        </view>
+      </view>
+      <view class="_view data-v-432c5ee4 item">
+        <view class="_view data-v-432c5ee4 item-li">
+          <image src="../../static/xitongtongzhi.png" mode class="_image data-v-432c5ee4"></image>
+          <text class="_text data-v-432c5ee4 item-name">系统</text>
+          <text class="_text data-v-432c5ee4 item-time">09/12 12:51</text>
+        </view>
+        <view class="_view data-v-432c5ee4 info">
+          <text class="_text data-v-432c5ee4 info-title">2000个碧波币免费送</text>
+          <text class="_text data-v-432c5ee4 info-desc">你还在为赚碧波币而苦恼吗？今天小编给大家带来好消息，正好可以解决这个问题，那就是海里碧波币免费送。只要完成三个点赞活动即可参加哦。限量2000个碧波币免费送，先到先得哦～</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

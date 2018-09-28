@@ -1,0 +1,116 @@
+@import "../../common/vendor.wxss";
+
+.header {
+  height: 128rpx;
+  width: 100%;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 4rpx 8rpx 0 rgba(238, 238, 238, 0.5);
+}
+.header-left,
+.header-right {
+  width: 100rpx;
+  height: 88rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.header image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.header-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+.list {
+  min-height: 200rpx;
+  width: 100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.item {
+  margin-top: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-height: 260rpx;
+  background-color: #ffffff;
+  box-shadow: 0 4rpx 8rpx 0 #eeeeee;
+  border-radius: 12rpx;
+  overflow: hidden;
+}
+.item-li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 160rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+.item-li image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.item-li .item-name {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 28rpx;
+  color: #6c6c6c;
+}
+.item-li .item-time {
+  font-size: 28rpx;
+  color: #b6b6b6;
+}
+.info {
+  min-height: 100rpx;
+  width: 100%;
+  padding: 0 20rpx 20rpx;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  font-size: 26rpx;
+}
+.info-title {
+  color: #6c6c6c;
+}
+.info-desc {
+  line-height: 36rpx;
+  color: #b6b6b6;
+  text-align: justify;
+}
+.info-sign {
+  font-size: 26rpx;
+  color: #719deb;
+}

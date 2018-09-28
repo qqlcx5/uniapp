@@ -1,1 +1,0 @@
-<import src="../../components/crrencyRecord$4e73c1c9" /><template is="crrencyRecord$4e73c1c9" data="{{ ...$root['0'], $root }}"/>

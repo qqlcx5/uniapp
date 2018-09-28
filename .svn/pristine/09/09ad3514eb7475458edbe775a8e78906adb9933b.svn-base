@@ -1,0 +1,330 @@
+<template>
+	<view class="">
+		<view class="header">
+			<view class="header-left" @click="goback()">
+
+				<image src="../../static/left.png" mode=""></image>
+			</view>
+			<view class="header-content">
+				订单支付
+			</view>
+			<view class="header-right">
+				<image src="../../static/message.png" mode=""></image>
+			</view>
+		</view>
+		<view class="shop-box">
+			<view class="shop-title">
+				碧波币旗舰店
+			</view>
+			<view class="shop-item">
+				<view class="shop-item-left">
+					<image src="../../static/shop.png" mode=""></image>
+				</view>
+				<view class="shop-item-right">
+					<h2>碧波币（bibobi）P2P数字货币</h2>
+					<view class="shop-item-num">
+						<view>1.256 CNY</view>
+						<view class="numberBbox">
+							<number-box></number-box>
+						</view>
+					</view>
+				</view>
+
+			</view>
+		</view>
+		<view class="">
+			<view class="list-box">
+				<view class="list">
+					<view class="list-text">
+						支付金额
+					</view>
+					<view class="list-num">
+						2.52 CNY
+					</view>
+					<view class="list-detail">
+						查看明细<image src="../../static/bottom.png" mode=""></image>
+					</view>
+				</view>
+				<view class="item" v-show="false">
+
+				</view>
+			</view>
+			<view class="list-box">
+				<view class="list">
+					<view class="list-text">
+						支付方式
+					</view>
+					<view class="list-pay">
+						<image src="../../static/wx.png" mode=""></image>微信
+					</view>
+					<view class="list-detail">
+						<image src="../../static/bottom.png" mode=""></image>
+					</view>
+				</view>
+				<view class="item">
+					<view class="item-li">
+						<image src="../../static/wx.png" mode=""></image>微信
+					</view>
+					<view class="item-li">
+						<image src="../../static/wx.png" mode=""></image>微信
+					</view>
+					<view class="item-li">
+						<image src="../../static/wx.png" mode=""></image>微信
+					</view>
+				</view>
+			</view>
+
+		</view>
+		<view class="fix-box">
+			<view class="fix-totle">
+				总计：
+			</view>
+			<view class="fix-num">
+				2.52 CNY
+			</view>
+			<view class="fix-btn">
+				支付
+			</view>
+		</view>
+	</view>
+
+</template>
+
+<script>
+	import numberBox from '../../components/number-box.vue'
+	export default {
+		data() {
+			return {}
+		},
+		components: {
+			numberBox
+		},
+		methods: {
+			goback: function() {
+				uni.navigateBack({
+					delta: 1
+				})
+			}
+		}
+	}
+</script>
+<style>
+	.header {
+		height: 128px;
+		width: 100%;
+		display: flex;
+		box-sizing: border-box;
+		padding-top: 20px;
+		align-items: center;
+		background-color: #fff;
+		box-shadow: 0px 4px 8px 0px rgba(238, 238, 238, 0.5);
+	}
+
+	.header image {
+		width: 40px;
+		height: 40px;
+	}
+
+	.header-left,
+	.header-right {
+		width: 88px;
+		height: 88px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.header-content {
+		flex: 1;
+		font-size: 36px;
+		text-align: center;
+	}
+
+	.shop-box {
+		min-height: 300px;
+		width: 100%;
+		padding: 0 40px;
+		border-top: 12px solid #f7f7f7;
+		border-bottom: 2px solid #f7f7f7;
+		box-sizing: border-box;
+		background-color: #fff;
+
+	}
+
+	.shop-title {
+		height: 80px;
+		line-height: 80px;
+		width: 100%;
+		font-size: 28px;
+		color: #585858;
+	}
+
+	.shop-item {
+		width: 100%;
+		height: 10px;
+		display: flex;
+	}
+
+	.shop-item-left {
+		width: 180px;
+		height: 180px;
+		margin-right: 40px;
+	}
+
+	.shop-item image {
+		width: 100%;
+		height: 100%;
+	}
+
+	.shop-item-right {
+		flex: 1;
+		height: 180px;
+		padding: 30px 0;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.shop-item-right h2 {
+		width: 100%;
+		height: 60px;
+		font-size: 28px;
+		color: #585858;
+	}
+
+	.shop-item-num {
+		display: flex;
+		align-items: flex-end;
+		height: 60px;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.list-box {
+		min-height: 120px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.list {
+		height: 120px;
+		width: 100%;
+		display: flex;
+		padding: 0 40px;
+		box-sizing: border-box;
+		align-items: center;
+		background-color: #FFFFFF;
+		border-bottom: 2px solid #e8e8e8;
+	}
+
+	.list-text {
+		width: 160px;
+		height: 120px;
+		line-height: 120px;
+		font-size: 32px;
+		color: #585858;
+	}
+
+	.list-num {
+		font-size: 32px;
+		color: #e97b78;
+		height: 120px;
+		line-height: 120px;
+		flex: 1;
+	}
+
+	.list-pay {
+		display: flex;
+		align-items: center;
+		font-size: 32px;
+		color: #e97b78;
+		height: 120px;
+		flex: 1;
+	}
+
+	.list-pay image {
+		width: 40px;
+		height: 40px;
+		margin-right: 10px;
+
+	}
+
+	.list-detail {
+		width: 160px;
+		height: 120px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		font-size: 24px;
+		color: #a7a7a7;
+	}
+
+	.list-detail image {
+		margin-left: 10px;
+		height: 24px;
+		width: 24px;
+	}
+
+	.item {
+		min-height: 240px;
+		width: 100%;
+		background-color: #FFFFFF;
+		padding: 0 40px;
+		box-sizing: border-box;
+	}
+
+	.item-li {
+		height: 80px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		border-bottom: 2px solid #F8F8F8;
+
+	}
+
+	.item-li image {
+		width: 40px;
+		height: 40px;
+		margin-right: 10px;
+	}
+
+	.fix-box {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 100px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		padding-left: 40px;
+		box-sizing: border-box;
+		background-color: #fff;
+	}
+
+	.fix-totle {
+		width: 100px;
+		height: 100px;
+		line-height: 100px;
+		font-size: 32px;
+		color: #585858;
+	}
+
+	.fix-num {
+		font-size: 32px;
+		flex: 1;
+		height: 100px;
+		line-height: 100px;
+		color: #e97b78;
+		color: #e97b78;
+	}
+	.fix-btn{
+	width: 200px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #e97b78;
+	}
+</style>

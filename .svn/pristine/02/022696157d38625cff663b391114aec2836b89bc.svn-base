@@ -1,0 +1,12 @@
+<template name="387c9887">
+  <view class="_view data-v-432c5ee4">
+    <view class="_view data-v-432c5ee4 header">
+      <view class="_view data-v-432c5ee4 header-left" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+        <image src="../../static/left.png" mode class="_image data-v-432c5ee4"></image>
+      </view>
+      <view class="_view data-v-432c5ee4 header-content"> 消费码 </view>
+      <view class="_view data-v-432c5ee4 header-right"></view>
+    </view>
+    <view class="_view data-v-432c5ee4 bg-title"></view>
+  </view>
+</template>

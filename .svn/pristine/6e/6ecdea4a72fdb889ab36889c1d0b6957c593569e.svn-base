@@ -1,0 +1,106 @@
+@import "../../common/vendor.wxss";
+
+.header {
+  height: 128rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4rpx 8rpx 0 rgba(238, 238, 238, 0.5);
+}
+.header image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.header-left,
+.header-right {
+  width: 88rpx;
+  height: 88rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.header-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 36rpx;
+  text-align: center;
+}
+.shop-box {
+  min-height: 300rpx;
+  width: 100%;
+  padding: 0 40rpx;
+  border-top: 12rpx solid #f7f7f7;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.shop-title {
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 100%;
+  font-size: 28rpx;
+  color: #585858;
+}
+.shop-item {
+  width: 100%;
+  height: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.shop-item-left {
+  width: 180rpx;
+  height: 180rpx;
+  margin-right: 40rpx;
+}
+.shop-item image {
+  width: 100%;
+  height: 100%;
+}
+.shop-item-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  height: 180rpx;
+  padding: 30rpx 0;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.shop-item-right ._h2 {
+  width: 100%;
+  height: 60rpx;
+  font-size: 28rpx;
+  color: #585858;
+}
+.shop-item-num {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  height: 60rpx;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}

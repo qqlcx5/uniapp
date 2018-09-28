@@ -1,34 +1,59 @@
 <template name="387c9887">
   <view class="_view data-v-432c5ee4">
-    <view class="_view data-v-432c5ee4 header">
-      <view class="_view data-v-432c5ee4 header-content">
-        <image class="_image data-v-432c5ee4 suosou" src="../../static/sousuo.png" mode></image>
-        <image class="_image data-v-432c5ee4 shanchu" src="../../static/shanchu_3.png" mode></image>
-        <input type="text" class="_input data-v-432c5ee4" />
+    <view class="_view data-v-432c5ee4 header-box">
+      <view class="_view data-v-432c5ee4 header">
+        <view class="_view data-v-432c5ee4 header-left">
+          <image src="../../static/sys.png" class="_image data-v-432c5ee4"></image>
+        </view>
+        <view class="_view data-v-432c5ee4 header-center">
+          <view class="_view data-v-432c5ee4 header-search">
+            <image src="../../static/sousuo.png" mode class="_image data-v-432c5ee4 mgr10"></image>搜索 </view>
+        </view>
+        <view class="_view data-v-432c5ee4 header-right">
+          <image src="../../static/message.png" class="_image data-v-432c5ee4"></image>
+        </view>
       </view>
-      <view class="_view data-v-432c5ee4 header-right" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}"> 取消 </view>
     </view>
-    <view class="_view data-v-432c5ee4 dialog">
-      <view class="_view data-v-432c5ee4 title">聊天记录</view>
-      <view class="_view data-v-432c5ee4 info">
-        <view class="_view data-v-432c5ee4">
-          <image src="../../static/bg.jpg" mode class="_image data-v-432c5ee4"></image>
+    <view class="_view data-v-432c5ee4 banner">
+      <image src="../../static/banner.png" mode class="_image data-v-432c5ee4"></image>
+    </view>
+    <view class="_view data-v-432c5ee4 goods">
+      <view class="_view data-v-432c5ee4 title">
+        <view class="_h2 data-v-432c5ee4">热卖推荐</view>
+        <view class="_p data-v-432c5ee4">碧波币（bibobi）是一种P2P形式的数字货币。</view>
+      </view>
+      <view class="_view data-v-432c5ee4 card-list">
+        <view class="_view data-v-432c5ee4 card" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+          <image src="../../static/shop_2.jpg" mode class="_image data-v-432c5ee4"></image>
+          <view class="_view data-v-432c5ee4 card-info">
+            <view class="_view data-v-432c5ee4 card-title">
+              <view class="_h2 data-v-432c5ee4">碧波币</view>
+              <view class="_p data-v-432c5ee4">1.256 CNY</view>
+            </view>
+            <view class="_view data-v-432c5ee4 btn">购买</view>
+          </view>
         </view>
-        <view class="_view data-v-432c5ee4 info-content">
-          <view class="_h4 data-v-432c5ee4">尼古拉斯</view>
-          <view class="_p data-v-432c5ee4">碧波碧波币很好哦碧波币很好哦碧波币很好哦碧波币很好哦碧波币很好哦币很好哦</view>
+        <view class="_view data-v-432c5ee4 card">
+          <image src="../../static/shop_2.jpg" mode class="_image data-v-432c5ee4"></image>
+          <view class="_view data-v-432c5ee4 card-info">
+            <view class="_view data-v-432c5ee4 card-title">
+              <view class="_h2 data-v-432c5ee4">碧波币</view>
+              <view class="_p data-v-432c5ee4">1.256 CNY</view>
+            </view>
+            <view class="_view data-v-432c5ee4 btn">购买</view>
+          </view>
+        </view>
+        <view class="_view data-v-432c5ee4 card">
+          <image src="../../static/shop.png" mode class="_image data-v-432c5ee4"></image>
+          <view class="_view data-v-432c5ee4 card-info">
+            <view class="_view data-v-432c5ee4 card-title">
+              <view class="_h2 data-v-432c5ee4">碧波币</view>
+              <view class="_p data-v-432c5ee4">1.256 CNY</view>
+            </view>
+            <view class="_view data-v-432c5ee4 btn">购买</view>
+          </view>
         </view>
       </view>
-      <view class="_view data-v-432c5ee4 info">
-        <view class="_view data-v-432c5ee4">
-          <image src="../../static/bg.jpg" mode class="_image data-v-432c5ee4"></image>
-        </view>
-        <view class="_view data-v-432c5ee4 info-content">
-          <view class="_h4 data-v-432c5ee4">尼古拉斯</view>
-          <view class="_p data-v-432c5ee4">碧波碧波币很好哦碧波币很好哦碧波币很好哦碧波币很好哦碧波币很好哦币很好哦</view>
-        </view>
-      </view>
-      <view class="_strong data-v-432c5ee4"></view>
     </view>
   </view>
 </template>

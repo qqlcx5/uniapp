@@ -1,0 +1,120 @@
+@import "../../common/vendor.wxss";
+
+.page {
+  background: #FFFFFF;
+  width: 100%;
+  height: 100vh;
+}
+.header {
+  height: 100rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  box-shadow: 0 4rpx 8rpx 0 rgba(238, 238, 238, 0.5);
+}
+.header-right {
+  width: 80rpx;
+  height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: #79c343;
+}
+.header-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding-left: 20rpx;
+  font-size: 36rpx;
+  position: relative;
+}
+.header-content image:nth-of-type(1) {
+  width: 24rpx;
+  height: 24rpx;
+  position: absolute;
+  top: 50%;
+  margin-top: -12rpx;
+  left: 40rpx;
+  z-index: 10;
+}
+.header-content ._input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  padding-left: 50rpx;
+  font-size: 36rpx;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  border: solid 2rpx #e6e6ea;
+  font-size: 26rpx;
+}
+.nearby {
+  min-height: 100rpx;
+  width: 100%;
+  overflow: hidden;
+}
+.nearbyheader {
+  margin-top: 40rpx;
+  height: 40rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+.nearbyheader ._p {
+  height: 40rpx;
+  line-height: 40rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 28rpx;
+  color: #b6b6b6;
+}
+.nearbyheader image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.nearby-box {
+  margin: 40rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 28rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 30rpx;
+  color: #6c6c6c;
+}
+.nearby-item {
+  min-width: 40rpx;
+  padding: 10rpx 30rpx;
+  height: 60rpx;
+  background-color: #f7f7f7;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  margin: 0 0 20rpx 30rpx;
+}

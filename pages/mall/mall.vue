@@ -1,165 +1,256 @@
 <template>
-	<view class="">
-		<view class="header">
-			<view class="header-content">
-				<image class="suosou" src="../../static/sousuo.png" mode=""></image>
-				<image class="shanchu" src="../../static/shanchu_3.png" mode=""></image>
-				<input type="text">
-			</view>
-			<view class="header-right" @click="goback()">
-				取消
+	<view>
+		<view class="header-box">
+			<view class="header">
+				<view class="header-left">
+					<image src="../../static/sys.png"></image>
+				</view>
+				<view class="header-center">
+					<view class="header-search">
+						<image src="../../static/sousuo.png" mode="" class="mgr10"></image>搜索
+					</view>
+				</view>
+				<view class="header-right">
+					<image src="../../static/message.png"></image>
+				</view>
 			</view>
 		</view>
-		<view class="dialog">
-			<view class="title">聊天记录</view>
-			<view class="info">
-				<view class="">
-					<image src="../../static/bg.jpg" mode=""></image>
-				</view>
-				<view class="info-content">
-					<h4>尼古拉斯</h4>
-					<P>碧波碧波币很好哦碧波币很好哦碧波币很好哦碧波币很好哦碧波币很好哦币很好哦</P>
-				</view>
+		<view class="banner">
+			<image src="../../static/banner.png" mode=""></image>
+		</view>
+		<!-- <view class="swiper-box">
+			<swiper :indicator-dots="true" :autoplay="true" :indicator-active-color="indicatorActiveColor" :interval="5000" :duration="duration">
+				<swiper-item v-for="(img,key) in imgUrls" :key="key">
+					<image :src="img" />
+				</swiper-item>
+			</swiper>
+		</view> -->
+		<view class="goods">
+			<view class="title">
+				<h2>热卖推荐</h2>
+				<p>碧波币（bibobi）是一种P2P形式的数字货币。</p>
 			</view>
-			<view class="info">
-				<view class="">
-					<image src="../../static/bg.jpg" mode=""></image>
+			<view class="card-list">
+				<view class="card" @click="gotoDetail()">
+					<image src="../../static/shop_2.jpg" mode=""></image>
+					<view class="card-info">
+						<view class="card-title">
+							<h2>碧波币</h2>
+							<p>1.256 CNY</p>
+						</view>
+						<view class="btn">购买</view>
+					</view>
 				</view>
-				<view class="info-content">
-					<h4>尼古拉斯</h4>
-					<P>碧波碧波币很好哦碧波币很好哦碧波币很好哦碧波币很好哦碧波币很好哦币很好哦</P>
+				<view class="card">
+					<image src="../../static/shop_2.jpg" mode=""></image>
+					<view class="card-info">
+						<view class="card-title">
+							<h2>碧波币</h2>
+							<p>1.256 CNY</p>
+						</view>
+						<view class="btn">购买</view>
+					</view>
 				</view>
+				<view class="card">
+					<image src="../../static/shop.png" mode=""></image>
+					<view class="card-info">
+						<view class="card-title">
+							<h2>碧波币</h2>
+							<p>1.256 CNY</p>
+						</view>
+						<view class="btn">购买</view>
+					</view>
+				</view>
+
 			</view>
-		<strong></strong>
 		</view>
 	</view>
 </template>
+
 <script>
 	export default {
 		data() {
-			return {}
-		},
-		props: ['headertitle'],
-		methods: {
-			goback: function () {
-				uni.navigateBack({
-					delta: 1
-				})
+			return {
+				indicatorActiveColor: "#fff",
+				imgUrls: [
+					'http://p4ygml8h5.bkt.clouddn.com/swiper1.png',
+					'http://p4ygml8h5.bkt.clouddn.com/swiper3.png',
+					'http://p4ygml8h5.bkt.clouddn.com/swiper2.png'
+				]
 			}
+		},
+		methods: {
+			gotoDetail() {
+				uni.navigateTo({
+					url: "malldetaill"
+				})
+			},
 		}
 	}
 </script>
+
 <style>
-	.header {
-		height: 100px;
+	.header-box {
+		height: 128px;
 		width: 100%;
-		display: flex;
-		box-sizing: border-box;
-		padding-top: 20px;
-		align-items: center;
-		background-color: #f7f7f7;
-		box-shadow: 0px 4px 8px 0px rgba(238, 238, 238, 0.5);
+		overflow: hidden;
 	}
 
+	.header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+		width: 100%;
+		height: 128px;
+		display: flex;
+		padding-top: 40px;
+		box-sizing: border-box;
+		background: #8cafea;
+		/* background: #FFFFFF; */
+		overflow: hidden;
+	}
+
+	.header image {
+		width: 40px;
+		height: 40px;
+	}
+
+	.header-left,
 	.header-right {
-		width: 80px;
-		height: 80px;
+		width: 100px;
+		height: 88px;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		color: #79c343;
 	}
 
-	.header-content {
+	.header-center {
 		flex: 1;
+		height: 88px;
 		display: flex;
 		align-items: center;
-		padding-left: 20px;
-		font-size: 36px;
-		position: relative;
+		justify-content: center;
 	}
 
-	.header-content image:nth-of-type(1) {
-		width: 24px;
-		height: 24px;
-		position: absolute;
-		top: 50%;
-		margin-top: -12px;
-		left: 40px;
-		z-index: 10;
-	}
-
-	.header-content image:nth-of-type(2) {
-		width: 24px;
-		height: 24px;
-		position: absolute;
-
-		top: 50%;
-		margin-top: -12px;
-		right: 20px;
-		z-index: 10;
-	}
-
-	.header-content input {
-		flex: 1;
-		padding-left: 50px;
-		font-size: 36px;
-		text-align: left;
+	.header-search {
+		width: 530px;
+		height: 60px;
 		background-color: #ffffff;
-		border-radius: 10px;
-		border: solid 2px #e6e6ea;
-		font-size: 26px;
-	}
-
-	.dialog {
-		min-height: 100px;
-		width: 100%;
-		padding: 0 20px;
-		box-sizing: border-box;
-		background: #FFFFFF;
-		display: flex;
-		flex-direction: column;
-	}
-
-	.title {
-		height: 80px;
-		line-height: 80px;
-		font-size: 28px;
-		color: #b6b6b6;
-		border-bottom: 2px solid #EEEEEE;
-	}
-
-	.info {
+		border-radius: 36px;
 		display: flex;
 		align-items: center;
-		height: 160px;
+		justify-content: center;
+		color: #b6b6b6;
+	}
+
+	.header-search image {
+		width: 30px;
+		height: 30px;
+	}
+
+	.banner {
+		width: 750px;
+		height: 240px;
+		overflow: hidden;
+	}
+
+	.banner image {
+		width: 750px;
+		height: 240px;
+	}
+	/* 
+	swiper {
 		width: 100%;
-		border-bottom: 2px solid #EEEEEE;
+		height: 32vw;
+		overflow: hidden;
 	}
 
-	.info image {
-		width: 120px;
-		height: 120px;
+	swiper-item image {
+		width: 100%;
+		height: 100%;
+	} */
+
+	.goods {
+		min-height: 300px;
+		width: 100%;
+		overflow: hidden;
 	}
 
-	.info-content {
-		flex: 1;
-		margin-left: 20px;
+	.goods .title {
+		height: 200px;
+		width: 100%;
+		display: block;
+		box-sizing: border-box;
+		padding: 44px 0;
+		text-align: center;
 	}
 
-	.info-content h4 {
+	.title h2 {
+		font-size: 32px;
+		color: #585858;
+	}
+
+	.title p {
+		margin-top: 20px;
 		font-size: 24px;
 		color: #b6b6b6;
 	}
 
-	.info-content p {
-		width: 580px;
-		display: inline-block;
-		height: 40px;
-		font-size: 28px;
-		color: #595959;
-		text-overflow: ellipsis;
+	.card {
+		margin: 0 auto 40px;
+		width: 80%;
+		height: 400px;
 		overflow: hidden;
-		white-space:nowrap;
+		border-radius: 20px 20px 0 0;
+		position: relative;
+	}
+
+	.card image {
+		width: 100%;
+		height: 400px;
+	}
+
+	.card-info {
+		width: 100%;
+		height: 140px;
+		background-color: #FFFFFF;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		display: flex;
+	}
+
+	.card-title {
+		display: flex;
+		flex: 1;
+		padding-left: 40px;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.card-title h2 {
+		font-size: 32px;
+		color: #b6b6b6;
+	}
+
+	.card-title p {
+		margin-top: 10px;
+		font-size: 40px;
+		color: #e97b78;
+	}
+
+	.btn {
+		width: 144px;
+		height: 80px;
+		line-height: 80px;
+		background-color: #8cafea;
+		border-radius: 20px;
+		align-self: flex-end;
+		margin: 24px;
+		text-align: center;
+		color: #FFFFFF;
 	}
 </style>

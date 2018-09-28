@@ -1,0 +1,47 @@
+@import "../../common/vendor.wxss";
+
+.header {
+  height: 128rpx;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4rpx 8rpx 0 rgba(238, 238, 238, 0.5);
+}
+.header image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.header-left,
+.header-right {
+  width: 88rpx;
+  height: 88rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.header-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  font-size: 36rpx;
+  text-align: center;
+}
+.bg-title {
+  height: 340rpx;
+  width: 100%;
+  background: url(http://p4ygml8h5.bkt.clouddn.com/pay-info) no-repeat center bottom;
+  background-size: cover;
+}
